@@ -6,6 +6,11 @@
 
 <p align="center">Tutorial De Vue para iniciantes em frameworks JavaScript.</p>
 
+
+## Conhecimento Necessário
+
+- HTML, CSS, JavaScript(principalmente sobre DOM)
+
 ## ROADMAP
 
 ### Iniciando com Vue
