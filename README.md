@@ -43,7 +43,7 @@ Produzido com a colaboração de integrantes da **He4rt Developers**, esse tutor
 
 ## Conhecimento Necessário
 
-- Básico
+- HTML, CSS, JavaScript(principalmente sobre DOM)
 
 <!-- GETTING STARTED -->
 
