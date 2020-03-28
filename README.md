@@ -17,12 +17,12 @@
     <a href="https://github.com/Novout/vue4noobs/issues">Request Feature</a>
   </p>
 </p>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Conteúdos
 
 - [Conteúdos](#conte%c3%bados)
+- [Paper](#paper)
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Conhecimento Necessário](#conhecimento-necess%c3%a1rio)
 - [Iniciando](#iniciando)
@@ -30,6 +30,10 @@
   - [Instalação](#instala%c3%a7%c3%a3o)
 - [Como Contribuir](#como-contribuir)
 - [Colaboradores](#colaboradores)
+
+## Paper
+
+O paper está disponível em [He4rt](#)
 
 <!-- ABOUT THE PROJECT -->
 
