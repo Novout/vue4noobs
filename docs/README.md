@@ -1,4 +1,4 @@
-# Linux4noobs
+# vue4noobs
 
 <h1 align="center">
   <img src="../assets/vue2.png" alt="Vue logo" width="120">
@@ -7,9 +7,12 @@
 <p align="center">Tutorial De Vue para iniciantes em frameworks JavaScript.</p>
 
 
-## Conhecimento Necessário
+## Necessário
 
-- HTML, CSS, JavaScript(principalmente sobre DOM)
+- Conhecimento sobre HTML, CSS
+- Conhecimento sobre JavaScript (principalmente sobre DOM)
+- Instalar [NodeJS](https://nodejs.org/en/)
+- Instalar [Yarn](https://yarnpkg.com/)
 
 ## ROADMAP
 
