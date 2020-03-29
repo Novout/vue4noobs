@@ -1,4 +1,4 @@
-## Vue CLI
+# Vue CLI
 
 Neste tutorial iremos utilizar **vue-cli** para a criação do nosso projeto, pois ele irá facilitar a instalação de plugins além de ter uma interface agradável.
 
