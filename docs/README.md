@@ -18,12 +18,12 @@
 
 ### Iniciando com Vue
 
-  1. [O que é vue](1-Iniciando%20com%20Vue/1-O%20que%20e%20vue.md)
+  1. [O que é Vue](1-Iniciando%20com%20Vue/1-O%20que%20e%20Vue.md)
   2. [VueCLI](1-Iniciando%20com%20Vue/2-VueCLI.md)
+  3. [Estrutura do Projeto](1-Iniciando%20com%20Vue/3-Estrutura%20do%20Projeto.md)
 
 ## Autores
 
-* **Giovane Cardoso (Novout)** -  *Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
-
+* **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
 
 <p align="center">Made with 💜</p>
