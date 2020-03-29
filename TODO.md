@@ -1,0 +1,2 @@
+- Revisar o português na seção de props
+- Explicar um pouco melhor sobre a estrutura do projeto
