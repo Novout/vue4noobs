@@ -40,13 +40,13 @@ export default {
 </script>
 
 <style>
-.example {
+.exemplo {
   color: purple;
 }
 </style>
 ```
 
-Também suporta o uso de linguagens não-padrão, tais como pré-processadores CSS e linguagem que compila para HTML a partir de um template, especificando o atributo lang para um bloco de linguagem. Por exemplo, você pode usar Sass para o estilo do seu componente como este:
+Também suporta o uso de linguagens não-padrão, tais como pré-processadores CSS e linguagem que compila para HTML a partir de um template, especificando o atributo lang para um bloco de linguagem. Por exemplo, você pode usar Sass e Pug.js para o estilo do seu componente como este:
 ```vue
 <template lang="pug">
 </template>

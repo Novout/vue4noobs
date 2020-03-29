@@ -33,7 +33,7 @@
 
 ## Paper
 
-O paper está disponível em [He4rt](#)
+O paper está disponível em [He4rt](docs/README.md)
 
 <!-- ABOUT THE PROJECT -->
 
