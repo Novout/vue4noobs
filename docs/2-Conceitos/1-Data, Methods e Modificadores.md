@@ -20,8 +20,6 @@ Dessa forma, declaramos **contador** de uma forma reativa, como fala na seção 
 
 Precisamos retornar um objeto para o **data** para que cada instância possa manter uma cópia independente do objeto de dados retornado, assim mantendo a "reatividade".
 
----
-
 No **data** podemos declarar qualquer tipo de dado(objetos, arrays, etc...)
 
 ```js
@@ -39,6 +37,8 @@ export default {
 }
 </script>
 ```
+
+A sintaxe do **Vue** em tudo que está dentro do **export default** é baseado nos **objetos literais**
 
 ---
 

@@ -23,6 +23,10 @@
   3. [Estrutura do Projeto](1-Iniciando%20com%20Vue/3-Estrutura%20do%20Projeto.md)
   4. [Fluxo e Props](1-Iniciando%20com%20Vue/4-Fluxo%20e%20Props.md)
 
+### Conceitos
+
+  1. [Data-Methods-Modificadores](2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
+
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
