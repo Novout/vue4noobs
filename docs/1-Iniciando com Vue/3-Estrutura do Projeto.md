@@ -21,15 +21,15 @@ Agora iremos explicar sobre cada arquivo que contém no projeto. Se você optou 
 
 ## public/favicon.icon
 
-Ícone do seu site
+Ícone do seu site.
 
 ## public/index.html
 
-É a onde o virtual DOM irá transformar no DOM final, anexando no html
+É a onde o virtual DOM irá transformar no DOM final, anexando no html.
 
 ## src/assets
 
-Todas as imagenss e presets serão guardados aqui
+Todas as imagenss e presets serão guardados aqui.
 
 ## src/components
 
@@ -42,10 +42,10 @@ O componente base da aplicação. Quando usamos o [VueRouter](https://router.vue
 
 ## src/main.js
 
-Arquivo de entrada principal, criando a [Instância](https://br.vuejs.org/v2/guide/instance.html) do **Vue** e anexando na div que possui o id **app**, que fica no **public/index.html** 
+Arquivo de entrada principal, criando a [Instância](https://br.vuejs.org/v2/guide/instance.html) do **Vue** e anexando na div que possui o id **app**, que fica no **public/index.html**.
 
 ## babel.config.js
 
 O [babel](https://babeljs.io/) é um transcompilador de JavaScript para converter códigos ES6+, assim mecanismos mais antigos conseguindo executar o código.
 
-Na próxima seção, irá ser explicado como está o fluxo inicial da aplicação e introduzindo o conceito de **props**
+Na próxima seção irá ser explicado como está o fluxo inicial da aplicação e introduzindo o conceito de **props**.
