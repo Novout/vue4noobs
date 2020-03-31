@@ -187,7 +187,6 @@ export default {
   props: {
     msg: { 
       required: true, 
-      default: "Hello He4rt",
       type: String
     }
   }
