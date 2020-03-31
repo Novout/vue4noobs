@@ -110,8 +110,9 @@ Podemos escrever **methods** de outras formas, como:
 ```js
 <template>
   <section>
-    <button v-on:click="acrescentar()">Clique aqui</button>
-    <p>Você clicou no botão {{ contador }} vezes</p>
+    <button v-on:click="acrescentar()">Clique aqui para acrescentar</button>
+    <button v-on:click="subtrair()">Clique aqui para subtrair </button>
+    <p>O valor de contador é: {{ contador }}</p>
   </section>
 </template>
 
@@ -125,6 +126,9 @@ export default {
   methods: {
     acrescentar: function () {
       this.contador++;
+    },
+    subtrair: function () {
+      this.contador--;
     }
   }
 }
