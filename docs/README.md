@@ -26,6 +26,7 @@
 ### Conceitos
 
   1. [Data-Methods-Modificadores](2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
+  2. [Diretivas](2-Conceitos/2-Diretivas.md)
 
 ## Autores
 
