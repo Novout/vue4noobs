@@ -18,10 +18,12 @@
 
 ### Iniciando com Vue
 
+  0. [Antes de começar](1-Iniciando%20com%20Vue/0-Antes%20de%20começar.md)
   1. [O que é Vue](1-Iniciando%20com%20Vue/1-O%20que%20e%20Vue.md)
   2. [VueCLI](1-Iniciando%20com%20Vue/2-VueCLI.md)
   3. [Estrutura do Projeto](1-Iniciando%20com%20Vue/3-Estrutura%20do%20Projeto.md)
   4. [Fluxo e Props](1-Iniciando%20com%20Vue/4-Fluxo%20e%20Props.md)
+  5. [Componentização](1-Iniciando%20com%20Vue/5-Componentização.md)
 
 ### Conceitos
 
@@ -35,6 +37,8 @@
   8. [Transições](2-Conceitos/8-Transições.md)
   9. [Keep Alive](2-Conceitos/9-Keep%20Alive.md)
   10. [Mixins](2-Conceitos/10-Mixins.md)
+  11. [Pre-Processadores](2-Conceitos/11-Pre-Processadores.md)
+  12. [Considerações](2-Conceitos/12-Considerações.md)
 
 ## Autores
 
