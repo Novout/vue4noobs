@@ -66,7 +66,7 @@ new Vue({
 });
 ```
 
-Na próxima seção iremos explicar o funcionamento de um **BusEvent**, te vemos lá!
+Na próxima seção iremos explicar o funcionamento dos **LifeCycleHooks**, te vemos lá!
 
 
 

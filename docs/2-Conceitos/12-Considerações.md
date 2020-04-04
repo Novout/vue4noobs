@@ -8,7 +8,8 @@ Qualquer dúvida ou reportar algum problema sobre o curso, reporte diretamente n
 
 Tópicos como **componentes assíncronos** e **manipulações de carregamento** não serão abordados pois o objetivo do curso é uma introdução ao vue mostrando todo o seu **ecossistema**, mas iremos deixar a seguir se desejar ler sobre estes tópicos:
 
-[Componentes](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components/)
-[Manipulações](https://alligator.io/vuejs/vue-async-components-load-error/)
+[Componentes Assíncronos](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components/)
 
-* Infelizmente a maioria dos conteúdos de **Vue** ainda estão em inglês, e é exatamente o motivo para a existência deste mini-curso sendo o objetivo conseguir atingir novos entusiastas em **Vue**, então em um futuro poderemos ter tópicos mais específicos traduzidos(por exemplo, o novo Vue3).
+[Manipulações de Carregamento](https://alligator.io/vuejs/vue-async-components-load-error/)
+
+* Infelizmente a maioria dos conteúdos de **Vue** ainda estão em inglês, e é exatamente o motivo para a existência deste mini-curso sendo o objetivo conseguir atingir novos entusiastas em **Vue**, então em um futuro poderemos ter tópicos mais específicos traduzidos(por exemplo, o novo Vue 3).
