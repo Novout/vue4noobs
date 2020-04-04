@@ -1,8 +1,8 @@
 # Fluxo e Props
 
-Agora vamos falar sobre o **App.vue** e a prop **HelloWorld.vue**
+Agora vamos falar sobre o **App.vue** e a propriedade **HelloWorld.vue**.
 
-```js
+```html
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
@@ -33,7 +33,9 @@ export default {
 </style>
 ```
 
-Vamos começar pelo template, a **div** é necessaria pois o **template** pode ter apenas um item em sua raiz
+## Elemento Raiz
+
+Vamos começar pelo template, a **div** é necessaria pois o **template** pode ter apenas um item em sua raiz:
 
 Correto:
 ```html
@@ -53,9 +55,9 @@ Errado:
 </template>
 ```
 
-O **HelloWorld** é um componente que está sendo importado por outro componente **App.vue**, para isso, precisamos registrar o componente
+O **HelloWorld** é um componente que está sendo importado por outro componente **App.vue**, para isso, precisamos registrar o componente:
 
-```js
+```html
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -67,9 +69,11 @@ export default {
 </script>
 ```
 
-* Curiosidade: O **Vue** reconhece tanto PascalCase quanto kebab-case e vice-versa, exemplo:
+## Convensões de Importanção
 
-```js
+* Curiosidade: O **Vue** reconhece tanto **PascalCase** quanto **kebab-case** e vice-versa, exemplo:
+
+```html
 <template>
   <hello-world msg="Welcome to He4rt"/>
 </template>
@@ -85,6 +89,8 @@ export default {
 </script>
 ```
 
+## Nome do Componente
+
 O **name** significa o nome do componente que está sendo exportado, por padrão o **Vue** exporta o nome que está descrito na extensão do arquivo, neste caso, **App** seria exportado da mesmo forma.
 
 ```js
@@ -94,6 +100,8 @@ export default {
 }
 </script>
 ```
+
+## Propriedades
 
 Agora vamos diretamente para o componente **HelloWorld.vue**:
 
@@ -202,6 +210,8 @@ Agora vamos falar sobre a **msg** sendo exibida no template
   </div>
 </template>
 ```
+
+## Interpolação
 
 A forma de exibir conteúdo da exportação no template chamamos de **interpolação**, passando dois abre e fecha conchetes `{{ <conteudo> }}` para representar
 
