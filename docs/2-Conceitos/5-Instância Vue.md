@@ -15,6 +15,8 @@ Vue.component('card', {
 
 * O template anexa uma string ao template do componente, **NÃO** recomendamos utilizar na maioria das situações devido a **mutações** de estado.
 
+* Dessa forma, podemos acessar este componente de qualquer aqui **.vue** de nossa aplicação.
+
 ## Vue.use
 
 Para a utilização de plugins, utilizamos o **.use** antes ta **instanciação** do **Vue**. Vamos usar o exemplo de instalação do plugin [Vuelidate](https://vuelidate.js.org).
