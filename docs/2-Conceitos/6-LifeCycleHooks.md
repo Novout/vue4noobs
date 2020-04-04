@@ -112,3 +112,5 @@ export default {
 ## Outros Hook's
 
 Existem outros dois ganchos: **activated** e **deactivated**. Estes são para componentes keep-alive, que será abordado futuramente em nosso paper. 
+
+Na próxima seção iremos abordar sobre o **BusEvent**, uma forma para conseguirmos transitar dados de componentes filhos mantendo a persistência dos dados, nos vemos lá!
