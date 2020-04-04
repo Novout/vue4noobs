@@ -23,7 +23,7 @@
 - [Conteúdos](#conte%c3%bados)
 - [Paper](#paper)
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Conhecimento Necessário](#conhecimento-necess%c3%a1rio-para-contribuir)
+- [Conhecimento Necessário para contribuir](#conhecimento-necess%c3%a1rio-para-contribuir)
 - [Iniciando](#iniciando)
   - [Pré-requisitos](#pr%c3%a9-requisitos)
   - [Instalação](#instala%c3%a7%c3%a3o)
@@ -38,7 +38,7 @@ O paper está disponível em [He4rt](docs/README.md)
 
 ## Sobre o Projeto
 
-Produzido com a colaboração de integrantes da **He4rt Developers**, esse tutorial tem como objetivo principal apresentar e ensinar o básico do framework **Vue**, de uma maneira fácil, descomplicada e acessível para todos.
+Produzido com a colaboração de integrantes da **He4rt Developers**, esse tutorial tem como objetivo principal apresentar e ensinar o básico do framework **Vue** em sua versão **2**, de uma maneira completa e acessível para todos.
 
 ## Conhecimento Necessário para contribuir
 
