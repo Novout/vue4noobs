@@ -73,7 +73,7 @@ Podemos criar mixins globais utilizando o **Vue.mixin**:
 ```js
 // irá jogar o 'importante' para as opções
 Vue.mixin({
-  created: function () {
+  created() {
     const importante = this.$options.importante;
     if (importante) {
       console.log(importante);
