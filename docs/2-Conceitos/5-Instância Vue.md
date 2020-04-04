@@ -56,6 +56,12 @@ Para conseguirmos alterar configurações padrões no **Vue**, utilizamos o **.c
 
 ```js
 Vue.config.productionTip = false;
+
+//...
+
+new Vue({
+  ...
+});
 ```
 
 Na próxima seção iremos explicar o funcionamento de um **BusEvent**, te vemos lá!
