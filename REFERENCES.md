@@ -6,7 +6,8 @@ O projeto utilizou estes links como auxilio para o desenvolvimento do curso, e n
 
 [Class and Styles](https://vuejs.org/v2/guide/class-and-style.html)
 
-[Async Components](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components/)
+[Async Components](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components)
+
 [Mixins in Vue](https://levelup.gitconnected.com/how-to-use-mixins-in-vuejs-a40cc3fb4428)
 
 [BusEvent](https://medium.com/@andrejsabrickis/https-medium-com-andrejsabrickis-create-simple-eventbus-to-communicate-between-vue-js-components-cdc11cd59860)
