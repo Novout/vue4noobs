@@ -20,6 +20,12 @@ A comunidade do **Vue** vem crescendo cada vez mais, iremos estar disponibilizan
 
 [LearnVue](https://twitter.com/LearnVuejs2)
 
+## SPA(Single Page Aplication)
+
+Significa que no **Vue** teremos uma aplicação web completa acontecendo em uma única página sem a necessidade de novas requisições no servidor. O **Vue** também possui **SSR** com o **Nuxt** e aplicações **PWA** com o **Quasar**, mas neste início vamos focar apenas no **SPA**.
+
+Utilizando este conceito conseguimos construir aplicações frontend de forma robusta e escalável.
+
 ## Virtual DOM
 
 Virtual DOM é um framework para manipulação do DOM(Document Object Model) que é utilizado pelo **Vue**, ele faz uma representação do DOM real na linguagem JavaScript, ou seja, o DOM verdadeiro é gerado a partir do DOM Virtual.Por conta disso, o **Vue** utiliza o **vue-loader** para fazer todo o ciclo do Virtual DOM e conseguir transformar no DOM final.

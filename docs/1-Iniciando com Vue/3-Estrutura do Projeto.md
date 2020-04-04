@@ -27,17 +27,17 @@ Agora iremos explicar sobre cada arquivo que contém no projeto. Se você optou 
 
 É a onde o virtual DOM irá transformar no DOM final, anexando no html.
 
-## src/assets
+## src/assets/**
 
 Todas as imagenss e presets serão guardados aqui.
 
-## src/components
+## src/components/**
 
 Todos os componentes da aplicação ficarão aqui, as **rotas** normalmente ficam em uma pasta **pages** ou **views**, iremos abordar isso futuramente.
 
 ## src/App.vue
 
-O componente base da aplicação. Quando usamos o [VueRouter](https://router.vuejs.org/) este arquivo vira o **view-router** principal. Sobre o **VueRouter**, recomendamos estar sobre apenas quando acabar sobre o básico do **Vue** para não confundir conceitos.
+O componente base da aplicação. Quando usarmos o [VueRouter](https://router.vuejs.org/) este arquivo vira o **view-router** principal. Sobre o **VueRouter**, recomendamos estar sobre apenas quando acabar sobre o básico do **Vue** para não confundir conceitos.
 
 
 ## src/main.js
