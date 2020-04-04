@@ -170,7 +170,7 @@ Podemos capturar o segundo argumento, assim passando como **key** diretamente:
 <template>
   <section>
     <article v-for="(item, index) in lista" :key="index">
-      <p>Nome do Usuário: {{ item.nome }} </p>
+      <p>Nome do Usuário: {{ item.nome }}</p>
     </article>
   </section>
 </template>
