@@ -7,5 +7,13 @@
 
 ### Conceitos
 
-  1. [Data-Methods-Modificadores](/docs/2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
+  1. [Data, Methods e Modificadores](/docs/2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
   2. [Diretivas](/docs/2-Conceitos/2-Diretivas.md)
+  3. [Computed e Watch](/docs/2-Conceitos/3-Computed%20e%20Watch.md)
+  4. [CSS](/docs/2-Conceitos/4-CSS.md)
+  5. [Instância Vue](/docs/2-Conceitos/5-Instância%20Vue.md)
+  6. [LifeCycleHooks](/docs/2-Conceitos/6-LifeCycleHooks.md)
+  7. [BusEvent](/docs/2-Conceitos/7-BusEvent.md)
+  8. [Transições](/docs/2-Conceitos/8-Transições.md)
+  9. [Keep Alive](/docs/2-Conceitos/9-Keep%20Alive.md)
+  10. [Mixins](/docs/2-Conceitos/10-Mixins.md)
