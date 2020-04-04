@@ -1,6 +1,6 @@
 # Keep Active
 
-Ao alternar entre esses componentes, às vezes, você deseja manter o estado deles ou evitar a nova renderização por motivos de desempenho. Por exemplo, ao expandir um pouco a nossa interface com guias.
+Ao alternar entre esses componentes, às vezes, precisamos manter o estado deles ou evitar a nova renderização por motivos de desempenho. Por exemplo, ao expandir um pouco a nossa interface com guias.
 
 Por padrão, se alterarmos de um componente para outro, o componente será destruido e terá que ser criado novamente.
 
@@ -33,14 +33,5 @@ Conseguimos delimitar quais componentes terão suas instâncias salvas utilizand
   <component :is="componente"></component>
 </keep-alive>
 ```
-
-## Tópicos Adicionais
-
-Tópicos como **componentes assíncronos** e **manipulações de carregamento** não serão abordados pois o objetivo do curso é uma introdução ao vue mostrando todo o seu **ecossistema**, mas iremos deixar a seguir se desejar ler sobre estes tópicos:
-
-[Componentes](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components/)
-[Manipulações](https://alligator.io/vuejs/vue-async-components-load-error/)
-
-* Infelizmente a maioria dos conteúdos de **Vue** ainda estão em inglês, e é exatamente o motivo para a existência deste mini-curso atingir novos usuários, então em um futuro poderemos ter tópicos mais específicos traduzidos(por exemplo, o novo Vue3)
 
 Na próximo seção iremos abordar sobre **mixins** no **Vue**, te esperamos lá!

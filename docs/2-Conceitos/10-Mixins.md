@@ -88,3 +88,12 @@ new Vue({
 ```
 
 * Quando for criar mixins globais, tome muito cuidado pelo fato de ser algo global que estará na instância sempre.
+
+## Tópicos Adicionais
+
+Tópicos como **componentes assíncronos** e **manipulações de carregamento** não serão abordados pois o objetivo do curso é uma introdução ao vue mostrando todo o seu **ecossistema**, mas iremos deixar a seguir se desejar ler sobre estes tópicos:
+
+[Componentes](https://vueschool.io/articles/vuejs-tutorials/async-vuejs-components/)
+[Manipulações](https://alligator.io/vuejs/vue-async-components-load-error/)
+
+* Infelizmente a maioria dos conteúdos de **Vue** ainda estão em inglês, e é exatamente o motivo para a existência deste mini-curso atingir novos usuários, então em um futuro poderemos ter tópicos mais específicos traduzidos(por exemplo, o novo Vue3).
