@@ -40,7 +40,7 @@
   11. [Pre-Processadores](2-Conceitos/11-Pre-Processadores.md)
   12. [Considerações](2-Conceitos/12-Considerações.md)
 
-### Conceitos
+### Vuetify
 
   1. [Iniciando com Vuetify](3-Vuetify/1-Iniciando%20com%20Vuetify.md)
   2. [Criando Componentes](3-Vuetify/2-Criando%20Componentes.md)
