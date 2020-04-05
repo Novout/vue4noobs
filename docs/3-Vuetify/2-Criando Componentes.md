@@ -233,7 +233,9 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
 
 * Fizemos a landing com a temática do curso, mas fique a vontade para customizar a landing page da forma que te agradar mais :)
 
-A cara final do nosso projeto:
+* O **Main** poderia virar um componente também.
+
+A cara final da nossa landing page:
 
 <h1 align="center">
   <img src="../../assets/Vuetify/Componentes/project_landing_page.png" alt="Imagem selecionando o vuetify" width="100%">
