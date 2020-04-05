@@ -1,7 +1,5 @@
 # Considerações
 
-Parabéns por ter chegado até aqui! Ja é possível ter uma boa base do **Vue**.
-
 ## Projeto
 
 Todas as próximas seções de nosso curso será implementando conteúdo em nosso projeto:
@@ -19,8 +17,6 @@ A Partir do **Nuxt** iremos mostrar outras tecnologias baseadas no **Vue**.
 ## Recomendações
 
 Explore os Componentes que o [Vuetify](https://vuetifyjs.com/pt-BR/components/cards/) dispoem, irão complementar e muito sua aplicação!
-
-Todos os conteúdos a parti de agora são complementares ao **Vue**, iremos aplicar conceitos que já foram explicados durante o curso.
 
 ---
 
