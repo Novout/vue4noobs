@@ -70,7 +70,7 @@ Escolha a opção padrão e espere instalar.
 Agora podemos executar o comando **yarn serve** em nosso projeto, e acesse o localhost que será exibido:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_helloworld.png" alt="Imagem mostrando como avançar" width="100%">
+  <img src="../../assets/Vuetify/O que e Vuetify/project_helloworld.png" alt="Imagem mostrando o site do vuetify" width="100%">
 </h1>
 
 ## Estrutura
@@ -136,6 +136,6 @@ o **v-btn** leva a página de últimos lançamentos do **Vuetify**, tendo em seu
 
 Não temos nada muito diferente do que já estamos acostumados, o funcionamento dos **v-row** e **v-col** é muito parecido com o display **grid** de nosso querido CSS, iremos também abordar sobre este sistema do **Vuetify** na próxima seção.
 
-* Recomendamos **>MUITO<** que explore a documentação do **Vuetify**, pois ele possui uma gama muito vasta que pode resolver um problema específico seu.
+* Recomendamos **>MUITO<** que explore a [documentação](https://vuetifyjs.com/pt-BR/getting-started/quick-start/) do **Vuetify**, pois ele possui uma gama muito vasta que pode resolver um problema específico seu.Felizmente muito conteúdo da documentação do **Vuetify** possui tradução!
 
 Nas próximas seções do **Vuetify**, iremos ensinar a como extrair o conteúdo dessa framework UI.
