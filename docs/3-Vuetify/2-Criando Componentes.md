@@ -6,7 +6,7 @@ Nesta seção iremos explorar todo a vasta gama de componentes que o **Vuetify**
 
 A partir desse ponto de nosso curso, iremos utilizar o que iremos fazer para as outras seções, apenas implementando mais conteúdo, então faça o conteúdo que iremos passar e fique livre para implementar conteúdos adicionais :)
 
-Não iremos disponibilizar o projeto final, pois o intuito é que você faça. "Ah mas eu tive um problema", perfeito! Revise seu código e procure entender o **porquê** passou despercebido e os motivos de não ter funcionado. Entregar o projeto final pronto só vai enfatizar seus erros, que, em um momento em que você **não pode errar**(ou que pelo menos não deveria) poderá te atrapalhar.Você pode contar com a ajudar da [He4rt](http://discord.io/He4rt) sempre que quiser!
+Não iremos disponibilizar o projeto por cada seção, apenas o projeto final, pois o intuito é que você faça. "Ah mas eu tive um problema", perfeito! Revise seu código e procure entender o **porquê** passou despercebido e os motivos de não ter funcionado. Entregar o projeto final pronto só vai enfatizar seus erros, que, em um momento em que você **não pode errar**(ou que pelo menos não deveria) poderá te atrapalhar.Você pode contar com a ajudar da [He4rt](http://discord.io/He4rt) sempre que quiser!
 
 Iremos fazer uma simples landing page de começo, posteriormente uma aplicação com login e dashboard.
 
