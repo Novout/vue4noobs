@@ -132,4 +132,10 @@ o **v-spacer** separa a nossa **div** e o **v-btn**, mantendo cada um de um lado
 
 o **v-btn** leva a página de últimos lançamentos do **Vuetify**, tendo em seu conteúdo o ícone e a descrição do **v-btn**.
 
+## HelloWorld
+
+Não temos nada muito diferente do que já estamos acostumados, o funcionamento dos **v-row** e **v-col** é muito parecido com o display **grid** de nosso querido CSS, iremos também abordar sobre este sistema do **Vuetify** na próxima seção.
+
+* Recomendamos **>MUITO<** que explore a documentação do **Vuetify**, pois ele possui uma gama muito vasta que pode resolver um problema específico seu.
+
 Nas próximas seções do **Vuetify**, iremos ensinar a como extrair o conteúdo dessa framework UI.
