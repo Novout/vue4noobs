@@ -1,4 +1,5 @@
 - Revisar o português na seção de props
 - Explicar um pouco melhor sobre a estrutura do projeto
 - Revisão seção de Data e Computed
-- Melhorar os exemplo de Mixins
+- Deixar a aplicação do VueRouter mais simples
+- Adicionar um pouco mais de conteúdo nas seções de Vuetify

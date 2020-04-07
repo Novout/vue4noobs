@@ -47,6 +47,13 @@
   3. [Customização](3-Vuetify/3-Customização.md)
   4. [Considerações](3-Vuetify/4-Considerações.md)
 
+### VueRouter
+
+  1. [Iniciando com Vue Router](4-Vue%20Router/1-Iniciando%20com%20Vue%20Router.md)
+  2. [Navegação](4-Vue%20Router/2-Navegação.md)
+  3. [Rotas Filhas](4-Vue%20Router/3-Rotas%20Filhas.md)
+  4. [Guardas de Rota](4-Vue%20Router/4-Guardas%20de%20Rota.md)
+
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)

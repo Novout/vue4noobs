@@ -28,3 +28,10 @@
   2. [Criando Componentes](/docs/3-Vuetify/2-Criando%20Componentes.md)
   3. [Customização](/docs/3-Vuetify/3-Customização.md)
   4. [Considerações](/docs/3-Vuetify/4-Considerações.md)
+
+### VueRouter
+
+  1. [Iniciando com Vue Router](/docs/4-Vue%20Router/1-Iniciando%20com%20Vue%20Router.md)
+  2. [Navegação](/docs/4-Vue%20Router/2-Navegação.md)
+  3. [Rotas Filhas](/docs/4-Vue%20Router/3-Rotas%20Filhas.md)
+  4. [Guardas de Rota](/docs/4-Vue%20Router/4-Guardas%20de%20Rota.md)
