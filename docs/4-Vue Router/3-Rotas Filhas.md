@@ -54,7 +54,7 @@ Agora em `./pages/Dashboard.vue`
             <v-list class="py-0">
               <v-list-item>
                 <v-list-item-content>
-                  <v-list-item-title>He4rt Dashboard</v-list-item-title>
+                  <v-list-item-title>Olá {{ conta }}!</v-list-item-title>
                   <v-list-item-subtitle>Drawer</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
@@ -89,6 +89,7 @@ Agora em `./pages/Dashboard.vue`
 export default {
   data() {
     return {
+      conta: '',
       items: [
         {
           titulo: 'Dashboard',
@@ -98,26 +99,34 @@ export default {
         {
           icon: 'mdi-inbox',
           titulo: 'Inbox',
-          href: '/dashboard/inbox',
+          href: '/inbox',
         },
         {
           icon: 'mdi-star',
           titulo: 'Star',
-          href: '/dashboard/star',
+          href: '/star',
         },
         {
           icon: 'mdi-send',
           titulo: 'Send',
-          href: '/dashboard/send',
+          href: '/send',
         },
         {
           icon: 'mdi-email-open',
           titulo: 'Drafts',
-          href: '/dashboard/drafts',
+          href: '/drafts',
         },
       ],
       color: 'primary',
+      right: true,
+      miniVariant: false,
+      expandOnHover: false,
+      background: false,
     };
+  },
+  mounted() {
+    const { conta } = JSON.parse(localStorage.getItem('CONTA'));
+    this.conta = conta;
   },
   methods: {
     redirecionar(href) {
@@ -137,6 +146,10 @@ Calma, respira fundo que iremos explicar o que está acontecendo:
 * Fizemos o mesmo método que usamos na landing para **redirecionar**, existe outras formas de mudar de rota como o **replace()**, e outras manipulações como o **back()**, mas focaremos apenas no **push()** para ficar simples.
 
 * Na outra coluna, estamos usando o **router-view** para exibir nossa rota **filha**.
+
+* no **mounted()** estamos buscando o nosso objeto no localStorage e exibindo na aplicação no **drawer**
+
+## Rota Filha
 
 No caso, a rota filha terá o seguinte conteúdo: 
 
