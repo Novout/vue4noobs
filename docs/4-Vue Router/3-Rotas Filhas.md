@@ -94,27 +94,27 @@ export default {
         {
           titulo: 'Dashboard',
           icon: 'mdi-view-dashboard',
-          href: '/',
+          href: '/dashboard',
         },
         {
           icon: 'mdi-inbox',
           titulo: 'Inbox',
-          href: '/inbox',
+          href: '/dashboard/inbox',
         },
         {
           icon: 'mdi-star',
           titulo: 'Star',
-          href: '/star',
+          href: '/dashboard/star',
         },
         {
           icon: 'mdi-send',
           titulo: 'Send',
-          href: '/send',
+          href: '/dashboard/send',
         },
         {
           icon: 'mdi-email-open',
           titulo: 'Drafts',
-          href: '/drafts',
+          href: '/dashboard/drafts',
         },
       ],
       color: 'primary',
@@ -224,6 +224,8 @@ export default {
 * Estamos fazendo um ternário para exibir o ícone correto
 
 * Pegando o elemento da lista e **concatenando** para requisitar as **imagens**
+
+* o **@click="toogle"** está diretamente relacionado os v-model no **group-item**.
 
 E como resultado final, o nosso dashboard ficará assim:
 
