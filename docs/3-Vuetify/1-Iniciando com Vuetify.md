@@ -27,6 +27,8 @@ Na próxima tela selecione a opção **Manual** e de **Next**.
 
 Vamos deixar selecionado o **Babel** e o **Linter** no momento e de **Next**.
 
+* No nosso tutorial, foi usado o preset do airbnb `@vue/eslint-config-airbnb`
+
 Na próxima tela, escolha as suas preferências de linter, e depois de **Next**.
 
 Após avançar, você terá a opção de **salvar seu preset**:
