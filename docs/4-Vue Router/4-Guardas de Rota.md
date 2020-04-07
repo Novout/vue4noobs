@@ -50,10 +50,6 @@ import DashboardHome from './components/dashboard/DashboardHome.vue';
 
 export default [
   {
-    path: '/login',
-    component: Login,
-  },
-  {
     path: '/dashboard',
     component: Dashboard,
     beforeEnter: (to, from, next) => {
@@ -69,20 +65,14 @@ export default [
       { path: '/', component: DashboardHome },
     ],
   },
-  {
-    path: '/',
-    component: Home,
-  },
-  {
-    path: '*',
-    redirect: '/',
-  },
 ];
 ```
 
 Dessa forma, se acessarmos sem estar com autenticado, iremos ser redireciados **ANTES** de entrar na rota, evitando problemas.
 
 * Essa é uma forma simples, o correto seria armazenar o booleano em um gerenciador de estado(Vuex) e verificar a entrada e saida de todas as rotas, vamos falar um pouco sobre quando chegarmos nas seções do Vuex.
+
+## VueRouter Multiguard
 
 Também podemos criar grupos de autenticação:
 
@@ -98,7 +88,6 @@ import Login from './pages/Login.vue';
 import Dashboard from './pages/Dashboard.vue';
 
 import DashboardHome from './components/dashboard/DashboardHome.vue';
-
 
 const logado = (to, from, next) => {
   if (localStorage.getItem('AUTENTICADO')) {
@@ -134,14 +123,6 @@ export default [
       { path: '/', component: DashboardHome },
     ],
   },
-  {
-    path: '/',
-    component: Home,
-  },
-  {
-    path: '*',
-    redirect: '/',
-  },
 ];
 ```
 
@@ -151,5 +132,4 @@ export default [
 
 Dessa forma podemos fazer vários tipos e reaproveitar verificações.
 
-No próximo capítulo iremos inicializar com **Vuex**, explicando o fluxo e implementando uma simples autenticação, nos vemos lá!
-
+Na próxima seção iremos explicar um pouco sobre transições em rotas, estaremos te esperando!

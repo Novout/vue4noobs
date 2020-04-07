@@ -22,7 +22,7 @@
   11. [Pre-Processadores](/docs/2-Conceitos/11-Pre-Processadores.md)
   12. [Considerações](/docs/2-Conceitos/12-Considerações.md)
 
-### Conceitos
+### Vuetify
 
   1. [Iniciando com Vuetify](/docs/3-Vuetify/1-Iniciando%20com%20Vuetify.md)
   2. [Criando Componentes](/docs/3-Vuetify/2-Criando%20Componentes.md)
@@ -35,3 +35,4 @@
   2. [Navegação](/docs/4-Vue%20Router/2-Navegação.md)
   3. [Rotas Filhas](/docs/4-Vue%20Router/3-Rotas%20Filhas.md)
   4. [Guardas de Rota](/docs/4-Vue%20Router/4-Guardas%20de%20Rota.md)
+  5. [Transições no VueRouter](/docs/4-Vue%20Router/5-Transições%20no%20VueRouter.md)
