@@ -35,3 +35,4 @@
   2. [Navegação](/docs/4-Vue%20Router/2-Navegação.md)
   3. [Rotas Filhas](/docs/4-Vue%20Router/3-Rotas%20Filhas.md)
   4. [Guardas de Rota](/docs/4-Vue%20Router/4-Guardas%20de%20Rota.md)
+  5. [Transições no VueRouter](/docs/4-Vue%20Router/5-Transições%20no%20VueRouter.md)
