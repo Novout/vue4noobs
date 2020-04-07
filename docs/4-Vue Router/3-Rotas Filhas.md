@@ -217,3 +217,5 @@ E como resultado final, o nosso dashboard ficará assim:
 <h1 align="center">
   <img src="../../assets/Vue Router/Rotas Filhas/dashboard-home.png" alt="Imagem mostrando o dashboard" width="90%">
 </h1>
+
+Na próxima seção iremos ensinar a como implementar um **Middleware**, nos vemos lá!
