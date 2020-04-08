@@ -55,7 +55,7 @@
   4. [Guardas de Rota](4-Vue%20Router/4-Guardas%20de%20Rota.md)
   5. [Transições no VueRouter](4-Vue%20Router/5-Transições%20no%20VueRouter.md)
 
-## Vuex
+### Vuex
 
   1. [Gerenciamento de Estado](5-Vuex/1-Gerenciamento%20de%20Estado.md)
   2. [Iniciando com Vuex](5-Vuex/2-Iniciando%20com%20Vuex.md)
