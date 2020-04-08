@@ -73,4 +73,4 @@ export default: {
 </script>
 ```
 
-Na próxima seção iremos de apresentar o **VueRouter**, a **biblioteca** do vue para a construção de **rotas**, te vemos lá!
+Na próxima seção iremos de apresentar as transições, te vemos lá!
