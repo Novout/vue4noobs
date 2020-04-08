@@ -42,4 +42,35 @@ Causando mutação, o estado irá emitir o evento para o **mapState** (podemos t
 
 Acessando o `/dashboard`, poderá ver que nosso `Olá ...` voltou a funcionar!
 
+* IMPORTANTE!: A loja só ira **existir** em quanto o usuario estiver navegando, ele NÃO possui o mesmo funcionamento do **localStorage**. Uma forma de resolver esse problema é sempre que App.vue for construido, requisitar o localStorage que está com o id do usuário, buscar o usuário na API e dar **dispach** para o **Vuex**, assim conseguimos fazer que a conta do usuário seja lembrada até ele querer deslogar.
+
+Exemplo:
+
+`./src/App.vue`
+
+```js
+<template>
+  <transition name="router" mode="out-in">
+    <router-view />
+  </transition>
+</template>
+
+<script>
+export default {
+  mounted() {
+    const id = localStorage.getItem('ID');
+    this.$http.get('/users', { headers: id })
+    .then(res => {
+      this.$store.dispatch('USUARIO', res.data());
+    })
+    .catch(err => {
+      console.error(err);
+    })
+  },
+};
+</script>
+```
+
+* Iremos ensinar a como configurar o **axios** e até mesmo usar o **http** padrão do **Vue**, não se preocupe.
+
 Na próxima seção, iremos introduzir o conteúdo sobre **Getters**, nos vemos lá!

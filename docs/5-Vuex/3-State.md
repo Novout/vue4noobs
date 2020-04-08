@@ -162,7 +162,6 @@ computed: {
   ]),
 },
 ```
-
 Na próxima seção iremos implementar o **dispatch** no Login, nos vemos lá!
 
 
