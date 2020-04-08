@@ -50,13 +50,16 @@ export default {
 `./src/store/actions.js`
 
 ```js
+import types from './mutations_types';
+
 export default {
   actions: {
     usuarioLogado(context, usuario) {
-      context.commit('usuarioLogado', usuario);
+      context.commit(types.USUARIO_LOGADO, usuario);
     },
   },
 };
+
 ```
 
 `./src/store/getters.js`

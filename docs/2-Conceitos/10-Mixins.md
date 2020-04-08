@@ -1,6 +1,6 @@
 # Mixins
 
-Quando o seu projeto Vue começar a crescer, você pode copiar e colar os mesmos dados, métodos e observadores repetidamente, se tiver componentes semelhantes. Esse tipo de ideia "quebra" a ideia de componentização que uma framework oferece, por isso **mixins** são úteis. Claro, você pode escrever todos esses **arquivos separados** como um único componente e usar adereços para tentar personalizá-los, mas o uso desses adereços pode facilmente ficar **confuso e confuso**. 
+Quando o seu projeto Vue começar a crescer, você pode copiar e colar os mesmos dados, métodos e observadores repetidamente, se tiver componentes semelhantes. Esse tipo de ideia "quebra" a componentização que uma framework oferece, por isso **mixins** são úteis. Claro, você pode escrever todos esses **arquivos separados** como um único componente e usar adereços para tentar personalizá-los, mas o uso desses adereços pode facilmente ficar **confuso**. 
 
 Incrivelmente existe muitos códigos que ainda são feito com o famoso ctrc + ctrv de um componente a outro, então **recomendamos fortemente** o seu aprendizado com mixins para melhor utilização da framework.
 
