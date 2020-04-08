@@ -36,3 +36,13 @@
   3. [Rotas Filhas](/docs/4-Vue%20Router/3-Rotas%20Filhas.md)
   4. [Guardas de Rota](/docs/4-Vue%20Router/4-Guardas%20de%20Rota.md)
   5. [Transições no VueRouter](/docs/4-Vue%20Router/5-Transições%20no%20VueRouter.md)
+
+## Vuex
+
+  1. [Gerenciamento de Estado](/docs/5-Vuex/1-Gerenciamento%20de%20Estado.md)
+  2. [Iniciando com Vuex](/docs/5-Vuex/2-Iniciando%20com%20Vuex.md)
+  3. [State](/docs/5-Vuex/3-State.md)
+  4. [Actions](/docs/5-Vuex/4-Actions.md)
+  5. [Mutations](/docs/5-Vuex/5-Mutations.md)
+  6. [Getters](/docs/5-Vuex/6-Getters.md)
+  7. [Estrutura](/docs/5-Vuex/7-Estrutura.md)
