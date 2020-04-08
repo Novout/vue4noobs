@@ -57,3 +57,5 @@ computed: {
 ```
 
 * Trocamos o **mapState** por **mapGetters**
+
+Na próxima seção vamos mostrar como melhorar nossa estrutura, nos vemos lá!
