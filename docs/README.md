@@ -55,6 +55,16 @@
   4. [Guardas de Rota](4-Vue%20Router/4-Guardas%20de%20Rota.md)
   5. [Transições no VueRouter](4-Vue%20Router/5-Transições%20no%20VueRouter.md)
 
+## Vuex
+
+  1. [Gerenciamento de Estado](5-Vuex/1-Gerenciamento%20de%20Estado.md)
+  2. [Iniciando com Vuex](5-Vuex/2-Iniciando%20com%20Vuex.md)
+  3. [State](5-Vuex/3-State.md)
+  4. [Actions](5-Vuex/4-Actions.md)
+  5. [Mutations](5-Vuex/5-Mutations.md)
+  6. [Getters](5-Vuex/6-Getters.md)
+  7. [Estrutura](5-Vuex/7-Estrutura.md)
+
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
