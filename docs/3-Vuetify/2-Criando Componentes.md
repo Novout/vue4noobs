@@ -233,6 +233,8 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
 
 * Podemos usar o **:src** para procurar diretamente uma imagem em nossa aplicação, no caso em `./assets`.
 
+* O **Vue** possui um sistema de caminho relativo usando o **@**, tendo o **@** começando da pasta **/src**
+
 * Para baixar a imagem do Vue clique [aqui](https://en.wikipedia.org/wiki/Vue.js#/media/File:Vue.js_Logo_2.svg).
 
 * Também podemos formatar [textos](https://vuetifyjs.com/pt-BR/styles/text/) e espaçar [itens](https://vuetifyjs.com/pt-BR/styles/spacing/) com o **Vuetify**.
