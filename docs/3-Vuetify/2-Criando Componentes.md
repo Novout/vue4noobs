@@ -148,7 +148,7 @@ Vamos agora setar uma lista de botões e espaçar para a **direita**
           :key="index"
           @click="() => {}"
         >
-          <v-list-item-title>{{ titulo }}</v-list-item-title>
+          <v-list-item-title>{{ nome }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>
