@@ -123,5 +123,5 @@ it('Vue4Noobs está sendo exibido', () => {
 
 * Estamos esperando que o conteúdo da tag **p** seja **Vue4Noobs**.
 
-Na próxima seção, iremos mostrar como utilizar o **Cypress** no **Vue, nos vemos lá!
+Na próxima seção, iremos mostrar como utilizar o **Cypress** no **Vue**, nos vemos lá!
 
