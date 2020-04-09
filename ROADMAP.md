@@ -56,3 +56,9 @@
   5. [VueResource](/docs/6-Bibliotecas%20Adicionais/5-VueResource.md)
   6. [VuePropertyDecorator](/docs/6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
   7. [VueFontAwesome](/docs/6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
+
+### Testes e Storybook
+
+  1. [Jest no Vue](/docs/7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
+  2. [Cypress no Vue](/docs/7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
+  3. [Storybook](/docs/7-Testes%20e%20Storybook/3-Storybook.md)
