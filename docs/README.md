@@ -75,6 +75,12 @@
   6. [VuePropertyDecorator](6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
   7. [VueFontAwesome](6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
 
+### Testes e Storybook
+
+  1. [Jest no Vue](7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
+  2. [Cypress no Vue](7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
+  3. [Storybook](7-Testes%20e%20Storybook/3-Storybook.md)
+
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)

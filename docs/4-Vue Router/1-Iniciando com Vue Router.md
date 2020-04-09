@@ -24,15 +24,13 @@ Criamos um arquivo `vuerouter.js` em `./src/plugins/vuerouter.js'` e adicionamos
 ```js
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Routes from '../routes';
+import routes from '../routes.js';
 
 Vue.use(VueRouter);
 
 export default new VueRouter({
   mode: 'history',
-  routes: [
-    ...Routes,
-  ],
+  routes,
 });
 ```
 

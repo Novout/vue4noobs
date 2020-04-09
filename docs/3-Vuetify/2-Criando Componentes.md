@@ -55,6 +55,14 @@ Crie uma pasta em `./src/components/header/Header.vue`
 E importe em seu componente App.vue:
 
 ```html
+<template>
+  <v-app>
+    <section>
+      <Header />
+    </section>
+  </v-app>
+</template>
+
 <script>
 import Header from './components/header/Header.vue';
 
@@ -133,10 +141,9 @@ Vamos agora setar uma lista de botões e espaçar para a **direita**
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn>
       </template>
-
       <v-list>
         <v-list-item
-          v-for="({ nome, href }, index) in itemLista"
+          v-for="({ titulo, href }, index) in itemLista"
           :key="index"
           @click="() => {}"
         >
@@ -152,8 +159,8 @@ export default {
   data() {
     return {
       itemLista: [
-        { nome: 'Registrar', href: '' },
-        { nome: 'Entrar', href: '' },
+        { titulo: 'Registrar', href: '' },
+        { titulo: 'Entrar', href: '' },
       ],
     };
   },
@@ -188,7 +195,7 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
       <Header />
       <section class="d-flex flex-column justify-center align-center pt-10">
       <img
-        :src="require('@/assets/he4rt-logo.png')"
+        :src="require('@/assets/logo.png')"
         width="200px"
         alt="Imagem representando o logo da He4rt Developers"
         class="pt-5"
@@ -221,9 +228,11 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
 </template>
 ```
 
-* O **Vuetify** possui um sistema possui classes [proprias](https://vuetifyjs.com/pt-BR/styles/flex/) para usar, recomendo **MUITO** que veja para melhor aproveitamento.
+* O **Vuetify** possui um sistema de classes [proprias](https://vuetifyjs.com/pt-BR/styles/flex/) para usar, recomendo **MUITO** que veja para melhor aproveitamento.
 
 * Podemos usar o **:src** para procurar diretamente uma imagem em nossa aplicação, no caso em `./assets`.
+
+* O **Vue** possui um sistema de caminho relativo usando o **@**, tendo o **@** começando da pasta **/src**
 
 * Para baixar a imagem do Vue clique [aqui](https://en.wikipedia.org/wiki/Vue.js#/media/File:Vue.js_Logo_2.svg).
 
