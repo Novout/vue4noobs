@@ -144,11 +144,11 @@ Vamos agora setar uma lista de botões e espaçar para a **direita**
 
       <v-list>
         <v-list-item
-          v-for="({ nome, href }, index) in itemLista"
+          v-for="({ titulo, href }, index) in itemLista"
           :key="index"
           @click="() => {}"
         >
-          <v-list-item-title>{{ nome }}</v-list-item-title>
+          <v-list-item-title>{{ titulo }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>
@@ -160,8 +160,8 @@ export default {
   data() {
     return {
       itemLista: [
-        { nome: 'Registrar', href: '' },
-        { nome: 'Entrar', href: '' },
+        { titulo: 'Registrar', href: '' },
+        { titulo: 'Entrar', href: '' },
       ],
     };
   },
