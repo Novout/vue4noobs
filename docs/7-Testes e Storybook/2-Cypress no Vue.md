@@ -41,7 +41,7 @@ describe('Página Inicial', () => {
 Após rodarmos o comando `yarn test:e2e`, teremos esta resposta:
 
 <h1 align="center">
-  <img src="../../assets/Testes e Documentação/Cypress no Vue/e2e-tests.png" alt="Imagem selecionando o vuetify" width="100%">
+  <img src="../../assets/Testes e Storybook/Cypress no Vue/e2e-tests.png" alt="Imagem selecionando o vuetify" width="100%">
 </h1>
 
 * O **Cypress** tem muitos recursos disponíveis, recomendamos muito que dê uma olhada na [documentação](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-Can-Be-Simple-Sometimes).
