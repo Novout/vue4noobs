@@ -55,6 +55,14 @@ Crie uma pasta em `./src/components/header/Header.vue`
 E importe em seu componente App.vue:
 
 ```html
+<template>
+  <v-app>
+    <section>
+      <Header />
+    </section>
+  </v-app>
+</template>
+
 <script>
 import Header from './components/header/Header.vue';
 
