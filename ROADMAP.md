@@ -46,3 +46,13 @@
   5. [Mutations](/docs/5-Vuex/5-Mutations.md)
   6. [Getters](/docs/5-Vuex/6-Getters.md)
   7. [Estrutura](/docs/5-Vuex/7-Estrutura.md)
+
+### Bibliotecas Adicionais
+
+  1. [Vuelidate](6-Bibliotecas%20Adicionais/1-Vuelidate.md)
+  2. [Vuei18n](6-Bibliotecas%20Adicionais/2-Vuei18n.md)
+  3. [VueAWN](6-Bibliotecas%20Adicionais/3-VueAWN.md)
+  4. [VueDarkMode](6-Bibliotecas%20Adicionais/4-VueDarkMode.md)
+  5. [VueResource](6-Bibliotecas%20Adicionais/5-VueResource.md)
+  6. [VuePropertyDecorator](6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
+  7. [VueFontAwesome](6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
