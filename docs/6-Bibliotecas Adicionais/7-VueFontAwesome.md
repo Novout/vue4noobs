@@ -29,5 +29,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 * Para usar os ícones sem ser em usa versão default(solid), verifique a documentação.
 
-Na próxima seção, iremos introduzir sobre o que é **Testes Unitários**, nos vemos lá!
+Na próxima seção, iremos introduzir sobre como utilizar o **Jest** no **Vue**, te vemos lá!
 
