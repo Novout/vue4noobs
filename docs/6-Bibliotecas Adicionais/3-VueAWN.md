@@ -62,3 +62,5 @@ methods: {
 Recomendamos MUITO que acesse a documentação do [AWN](https://f3oall.github.io/awesome-notifications/docs/toasts/general).
 
 Na próxima seção, iremos mostrar como utilizar **Dark Theme** de forma facilitada no **Vue**, nos vemos lá!
+
+* Agora iremos apenas mostrar outras bibliotecas que podem ajudar o desenvolvimento de aplicações, vamos voltar a mecher no projeto apenas na seção de **Testes e Documentação**
