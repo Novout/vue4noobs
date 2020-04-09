@@ -196,7 +196,7 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
       <Header />
       <section class="d-flex flex-column justify-center align-center pt-10">
       <img
-        :src="require('@/assets/he4rt-logo.png')"
+        :src="require('@/assets/logo.png')"
         width="200px"
         alt="Imagem representando o logo da He4rt Developers"
         class="pt-5"
@@ -229,7 +229,7 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
 </template>
 ```
 
-* O **Vuetify** possui um sistema possui classes [proprias](https://vuetifyjs.com/pt-BR/styles/flex/) para usar, recomendo **MUITO** que veja para melhor aproveitamento.
+* O **Vuetify** possui um sistema de classes [proprias](https://vuetifyjs.com/pt-BR/styles/flex/) para usar, recomendo **MUITO** que veja para melhor aproveitamento.
 
 * Podemos usar o **:src** para procurar diretamente uma imagem em nossa aplicação, no caso em `./assets`.
 
