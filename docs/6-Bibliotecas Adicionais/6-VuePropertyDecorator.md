@@ -1,6 +1,6 @@
 # Vue Property Decorator
 
-No **Vue-CLI** é posível escolher a opção de usar o **Vue** com **Typescript**, e o [Property Decorator](https://github.com/kaorun343/vue-property-decorator) melhora esta experiência, ele possui as seguintes notações:
+No **Vue-CLI** é posível escolher a opção de usar o **Vue** com **Typescript**, e o [Property Decorator](https://github.com/kaorun343/vue-property-decorator) melhora esta experiência.
 
 Exemplo:
 
