@@ -1,6 +1,6 @@
 # Jest no Vue
 
-O Vue-Tests-Utils é uma coleção de ferramentas do **Vue** para **testes**.]
+O Vue-Tests-Utils é uma coleção de ferramentas do **Vue** para **testes**.
 
 Ele possui disponível os seguintes comandos:
 
