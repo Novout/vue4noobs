@@ -141,7 +141,6 @@ Vamos agora setar uma lista de botões e espaçar para a **direita**
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn>
       </template>
-
       <v-list>
         <v-list-item
           v-for="({ titulo, href }, index) in itemLista"
