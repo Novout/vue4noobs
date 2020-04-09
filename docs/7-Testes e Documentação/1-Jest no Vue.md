@@ -1,4 +1,4 @@
-# Iniciando com Vue-Tests-Utils
+# Jest no Vue
 
 O Vue-Tests-Utils é uma coleção de ferramentas do **Vue** para **testes**.]
 
@@ -86,6 +86,8 @@ describe('Home', () => {
 });
 ```
 
+* Para rodar os testes, utiliza o comando `yarn test:unit`
+
 * Criando o localVue podemos anexar as outras bibliotecas de nossa aplicação nos testes.
 
 * Nesse caso, temos um teste simples se o componente é uma instância **Vue**.
@@ -93,6 +95,8 @@ describe('Home', () => {
 * Sempre que o seu componente tiver bibliotecas externas, (Vue i18n, por exemplo), pesquise sobre como realizer os **mocks**.
 
 * Você támbem pode fazer um **setup.js** com as configurações dos **testes**.
+
+* É possível procurar as classes **css** com o **jest**, não dependendo do nome do **componente**.
 
 Vamos fazer outros testes agora, um pouco mais elaborados:
 
