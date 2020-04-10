@@ -1,6 +1,6 @@
 # Fluxo e Props
 
-Agora vamos falar sobre o **App.vue** e a propriedade **HelloWorld.vue**.
+Agora vamos falar sobre o **App.vue** e a propriedade **HelloWorld.vue**:
 
 ```html
 <template>
@@ -38,6 +38,7 @@ export default {
 Vamos começar pelo template, a **div** é necessaria pois o **template** pode ter apenas um item em sua raiz:
 
 Correto:
+
 ```html
 <template>
   <section>
@@ -48,6 +49,7 @@ Correto:
 ```
 
 Errado:
+
 ```html
 <template>
   <p>Hello</p>
@@ -148,7 +150,8 @@ export default {
 </script>
 ```
 
-Vamos desconsiderar as listas, pois possuem apenas a lógica padrão do **HTML**, vamos focar no que o **Vue** disponibiliza
+Vamos desconsiderar as listas, pois possuem apenas a lógica padrão do **HTML**, vamos focar no que o **Vue** disponibiliza:
+
 ```js
 <template>
   <div>
@@ -165,36 +168,40 @@ export default {
 </script>
 ```
 
-Primeiramente, uma **propriedade** (props) está sendo exportada, e dentro deste objeto temas a declaração de uma prop com o nome **msg**, tendo o tipo **obrigatório** String
+Primeiramente, uma **propriedade** (props) está sendo exportada, e dentro deste objeto temos a declaração de uma prop com o nome **msg**, tendo o tipo **obrigatório** String.
 
-Dessa forma, podemos atribuir um conteúdo de um componente **pai** para o componente **filho**, assim seguindo o conceito de **componentização**
+Dessa forma, podemos atribuir um conteúdo de um componente **pai** para o componente **filho**, assim seguindo o conceito de **componentização**.
 
-No caso de **App.vue**, estamos passando a **msg** com o tipo **String**
+No caso de **App.vue**, estamos passando a **msg** com o tipo **String**.
+
 ```html
 <HelloWorld msg="Welcome to He4rt"/>
 ```
 
 Como obrigatoriamente indicamos que **msg** precisa ser uma **String**, se passarmos:
+
 ```html
 <hello-world v-bind:msg="1"/>
 ```
 
-Irá gerar o erro, pois estamos passando um **Number**, e não uma **String**
+Irá gerar o erro, pois estamos passando um **Number**, e não uma **String**.
 
 * O **v-bind** pertence ao conceito de diretivas do **Vue**, o que estamos fazendo é ao **Vue** reconhecer o que passamos como um número e não como string, por exemplo:
+
 ```html
 <HelloWorld v-bind:msg="{ hello: 'world' }">
 ```
 
-Neste caso, estariamos passando um **Object**. Mais para frente do curso iremos explicar o que são as diretivas, então não se preocupe :)
+Neste caso, estariamos passando um **Object**. Iremos futuramente no curso explicar o que são as diretivas, então não se preocupe :)
 
 * Podemos também passar para as **props** outras restrições, como **required**(boolean, se a prop será obrigatória ou não), **default**(podemos definir um valor setado em caso o componente pai não mande nenhum conteúdo da prop setada).
+
 ```js
 <script>
 export default {
   props: {
-    msg: { 
-      required: true, 
+    msg: {
+      required: true,
       type: String
     }
   }
@@ -203,6 +210,7 @@ export default {
 ```
 
 Agora vamos falar sobre a **msg** sendo exibida no template
+
 ```js
 <template>
   <div>
@@ -217,6 +225,8 @@ A forma de exibir conteúdo da exportação no template chamamos de **interpola�
 
 No **Vue**, conteúdos passados por **interpolação** já são reativos, ou seja, se no **componente-pai** a **msg** for alterada durante a execução do DOM, o que está sendo exibido no template, mesmo por meio de **propriedade**, irá ser automaticamente trocada pelo novo conteúdo.
 
+* Em caso de entrada de dados, este comportamente é diferente.
+
 Podemos também intercalar conteúdos **estáticos** sem nenhum problema
 
 ```js
@@ -229,8 +239,8 @@ Podemos também intercalar conteúdos **estáticos** sem nenhum problema
 <script>
 export default {
   props: {
-    world: { 
-      required: false, 
+    world: {
+      required: false,
       default: "World",
       type: String
     }
