@@ -80,6 +80,14 @@
   1. [Jest no Vue](7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
   2. [Cypress no Vue](7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
   3. [Storybook](7-Testes%20e%20Storybook/3-Storybook.md)
+  
+### Ecossistema Vue
+
+  1. [Nuxt](8%20-%20Ecossistema%20Vue/1%20-%20Nuxt.md)
+  2. [Gridsome](8%20-%20Ecossistema%20Vue/2%20-%20Gridsome.md)
+  3. [VueNative](8%20-%20Ecossistema%20Vue/3%20-%20VueNative.md)
+  4. [VueElectron](8%20-%20Ecossistema%20Vue/4%20-%20VueElectron.md)
+  5. [Parabèns!](8%20-%20Ecossistema%20Vue/5%20-%20Parabéns!.md)
 
 ## Autores
 
