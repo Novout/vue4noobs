@@ -6,4 +6,6 @@ Em caso de dúvidas ou sugestões, contate diretamente pelo discorda da [He4rt](
 
 Giovane Cardoso - [Twitter](https://twitter.com/NovoutT) - novout@hotmail.com.
 
+Projeto final: https://github.com/Novout/vue4noobs-projeto
+
 Até mais!

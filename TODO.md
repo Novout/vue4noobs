@@ -1,5 +1,0 @@
-- Revisão seção de Data e Computed
-- Deixar a aplicação do VueRouter mais simples
-- Adicionar um pouco mais de conteúdo nas seções de Vuetify
-- Explicar sobre VueDevTools
-- v-slot e v-show
