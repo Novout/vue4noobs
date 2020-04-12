@@ -43,7 +43,7 @@ Agora em `./pages/Dashboard.vue`
 ```js
 <template>
   <v-app>
-    <v-container fluid>
+    <section>
       <v-row
         justify="center"
         align="center"
@@ -81,7 +81,7 @@ Agora em `./pages/Dashboard.vue`
           <router-view />
         </v-col>
       </v-row>
-    </v-container>
+    </section>
   </v-app>
 </template>
 
