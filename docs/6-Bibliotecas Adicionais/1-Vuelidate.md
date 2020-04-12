@@ -83,18 +83,21 @@ import Register from './pages/Register.vue';
                     type="text"
                     color="deep-purple"
                     v-model="conta"
+                    class="conta"
                   />
                   <v-text-field
                     label="Senha"
                     type="password"
                     color="deep-purple"
                     v-model="senha"
+                    class="senha"
                   />
                   <v-text-field
                     label="Repetir Senha"
                     type="password"
                     color="deep-purple"
                     v-model="repetirSenha"
+                    class="repetirSenha"
                   />
                 </v-form>
               </v-card-text>
