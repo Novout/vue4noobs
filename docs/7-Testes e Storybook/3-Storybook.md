@@ -16,6 +16,6 @@ Para rodar o **storybook**, usamos o comando `yarn storybook`
   <img src="../../assets/Testes e Storybook/Storybook/storybook.png" alt="Imagem selecionando o vuetify" width="60%">
 </h1>
 
-* Não será explicado a sua utilização no projeto pois iria ficar muito confuso, já que o storybook não é fácil de ser utilizado, apenas mostramos como utilizar no **Vue**, realmente recomendamos que dê uma lida sobre, pois pode ser muito **útil**.
+* Não será explicado a sua utilização no projeto pois iria distânciar da ideia do 4noobs, apenas mostramos como utilizar no **Vue**, realmente recomendamos que dê uma lida sobre, pois pode ser muito **útil** para documentação de projetos.
 
 Na próxima seção, iremos começar a mostrar um pouco mais do **Ecossistema** do **Vue**, nos vemos lá!
