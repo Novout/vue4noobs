@@ -8,7 +8,6 @@
   <h3 align="center">Vue4Noobs desenvolvido pela He4rt Developers</h3>
 
   <p align="center">
-    <strong>Este curso ainda está sendo desenvolvido.</strong>
     <br />
     <a href="docs/README.md"><strong>Explore a documentação »</strong></a>
     <br />
