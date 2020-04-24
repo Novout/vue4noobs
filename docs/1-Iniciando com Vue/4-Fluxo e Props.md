@@ -93,7 +93,7 @@ export default {
 
 ## Nome do Componente
 
-O **name** significa o nome do componente que está sendo exportado, por padrão o **Vue** exporta o nome que está descrito na extensão do arquivo, neste caso, **App** seria exportado da mesmo forma.
+O **name** significa o nome do componente que está sendo exportado, por padrão o **Vue** exporta o nome que está descrito na extensão do arquivo, neste caso, **App** seria exportado da mesma forma.
 
 ```js
 <script>
