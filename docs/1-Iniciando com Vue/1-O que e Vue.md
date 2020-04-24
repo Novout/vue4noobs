@@ -2,7 +2,7 @@
 
 Sejam bem vindos ao paper de Vue da [He4rt Developers](discord.io/He4rt), aqui nós iremos dar uma introdução ao framework **Vue**, mostrando todo o seu conceito e mostrando como utilizar de maneira efetiva.
 
-O **Vue**(se pronuncia **view**) é um framework para a construção de sites de forma progressiva, sendo diferente de outros tipo de estrutura monolítica. O ecossistema do **Vue** é extenso posibilitando ao desenvolvedor construir aplicações de forma escalável.
+O **Vue**(se pronuncia **view**) é um framework para a construção de sites de forma progressiva, sendo diferente de outros tipo de estrutura monolítica. O ecossistema do **Vue** é extenso possibilitando ao desenvolvedor construir aplicações Frontend Web.
 
 ## Comunidade
 
@@ -22,7 +22,7 @@ A comunidade do **Vue** vem crescendo cada vez mais, iremos estar disponibilizan
 
 ## SPA(Single Page Aplication)
 
-Significa que no **Vue** teremos uma aplicação web completa acontecendo em uma única página sem a necessidade de novas requisições no servidor. O **Vue** também possui **SSR** com o **Nuxt** e aplicações **PWA** com o **Quasar**, mas neste início vamos focar apenas no **SPA**.
+Significa que no **Vue** teremos uma aplicação web completa acontecendo em uma única página sem a necessidade de recarregar a página. O **Vue** também possui **SSR(Server Side Render)** com o **Nuxt** e aplicações **PWA** com o **Quasar**, mas neste início vamos focar apenas no **SPA** e apresentar alternativas futuramente.
 
 Utilizando este conceito conseguimos construir aplicações frontend de forma robusta e escalável.
 
@@ -49,13 +49,5 @@ export default {
 .exemplo {
   color: purple;
 }
-</style>
-```
-
-Também suporta o uso de linguagens não-padrão, tais como pré-processadores CSS e linguagem que compila para HTML a partir de um template, especificando o atributo lang para um bloco de linguagem. Por exemplo, você pode usar Sass e Pug.js para o estilo do seu componente como este:
-```vue
-<template lang="pug">
-</template>
-<style lang="sass">
 </style>
 ```
