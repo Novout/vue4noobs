@@ -1,6 +1,6 @@
 # Quasar
 
-O Quasar é um framework baseado em Vue.js que permite desenvolver rapidamente sites/aplicativos responsivos em vários formatos, ou seja, tanto aplicações Web quanto Mobile usando apenas uma ferramenta, seguindo os conceitos de [PWA](https://en.m.wikipedia.org/wiki/Progressive_web_application).
+O [Quasar](https://quasar.dev/) é um framework baseado em Vue.js que permite desenvolver rapidamente sites/aplicativos responsivos em vários formatos, ou seja, tanto aplicações Web quanto Mobile usando apenas uma ferramenta, seguindo os conceitos de [PWA](https://en.m.wikipedia.org/wiki/Progressive_web_application).
 
 ## Iniciando com Quasar
 
