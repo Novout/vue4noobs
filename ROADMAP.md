@@ -69,4 +69,5 @@
   2. [Gridsome](/docs/8%20-%20Ecossistema%20Vue/2%20-%20Gridsome.md)
   3. [VueNative](/docs/8%20-%20Ecossistema%20Vue/3%20-%20VueNative.md)
   4. [VueElectron](/docs/8%20-%20Ecossistema%20Vue/4%20-%20VueElectron.md)
-  5. [Parabèns!](/docs/8%20-%20Ecossistema%20Vue/5%20-%20Parabéns!.md)
+  5. [Quasar](/docs/8%20-%20Ecossistema%20Vue/5%20-%20Quasar.md)
+  6. [Parabèns!](/docs/8%20-%20Ecossistema%20Vue/6%20-%20Parabéns!.md)

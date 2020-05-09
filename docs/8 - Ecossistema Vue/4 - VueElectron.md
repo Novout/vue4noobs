@@ -15,4 +15,4 @@ vue init simulatedgreg/electron-vue seu-projeto
 
 Nos vemos na próxima seção, te esperamos muito lá!
 
-[Próxima Seção](./5%20-%20Parabéns!.md)
+[Próxima Seção](./5%20-%20Quasar.md)
