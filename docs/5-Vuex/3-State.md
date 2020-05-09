@@ -164,4 +164,6 @@ computed: {
 ```
 Na próxima seção iremos implementar o **dispatch** no Login, nos vemos lá!
 
+[Próxima Seção](./4-Actions.md)
+
 

@@ -30,3 +30,5 @@ main
 ```
 
 Na próxima seção, iremos para as nossas considerações de tudo oque aprendemos sobre os conceitos base do **Vue**, te vemos lá!
+
+[Próxima Seção](./12-Considerações.md)

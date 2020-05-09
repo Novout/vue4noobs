@@ -21,3 +21,5 @@ export default class He4rtComponent extends Vue {
 Saiba mais sobre o **Vue** com **Typescript** clicando [aqui](https://br.vuejs.org/v2/guide/typescript.html).
 
 Na próxima seção, iremos mostrar como utilizar o **awesome icons** no **Vue**, nos vemos lá!
+
+[Próxima Seção](./7-VueFontAwesome.md)

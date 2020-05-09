@@ -249,3 +249,5 @@ Mais sobre modificadores [aqui](https://br.vuejs.org/v2/guide/events.html#Modifi
 ---
 
 Na próxima seção, iremos introduzir formas de manipular o que será renderizado no DOM Virtual com **v-if** e **v-for**, esperamos te ver la!
+
+[Próxima Seção](./2-Diretivas.md)

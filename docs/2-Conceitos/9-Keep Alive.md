@@ -35,3 +35,5 @@ Conseguimos delimitar quais componentes terão suas instâncias salvas utilizand
 ```
 
 Na próximo seção iremos abordar sobre **mixins** no **Vue**, te esperamos lá!
+
+[Próxima Seção](./10-Mixins.md)

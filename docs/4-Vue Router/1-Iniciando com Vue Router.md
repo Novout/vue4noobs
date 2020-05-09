@@ -92,3 +92,5 @@ A estrutura final ficou a seguinte:
 </h1>
 
 Na próxima seção, iremos criar o nosso formulário de login, e a rota que ela irá redireciar, assim ensinando um pouco sobre **Navegação**, nos veremos lá!
+
+[Próxima Seção](./2-Navegação.md)

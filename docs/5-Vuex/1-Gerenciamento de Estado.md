@@ -100,3 +100,5 @@ new Vuex.Store({
 * O **Vuex** **NÃO** irá substituir a estrutura dos componentes do **Vue**, é recomendável só utilizar o **Vuex** quando realmente necessitamos acessar um mesmo **conteúdo** em várias partes diferentes da **aplicação**.
 
 Na próxima seção, iremos implementar a **loja** em nosso projeto atual, nos vemos lá!
+
+[Próxima Seção](./2-Iniciando%20com%20Vuex.md)

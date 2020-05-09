@@ -60,3 +60,5 @@ Agora vamos implementar um efeito parecido nas rotas filhas de **dashboard**:
 ```
 
 No próximo capítulo iremos inicializar com **Vuex**, explicando o fluxo e implementando uma simples autenticação, nos vemos lá!
+
+[Próxima Seção](../5-Vuex/1-Gerenciamento%20de%20Estado.md)

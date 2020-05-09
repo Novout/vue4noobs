@@ -74,3 +74,5 @@ export default {
 * Iremos ensinar a como configurar o **axios** e até mesmo usar o **http** padrão do **Vue**, não se preocupe.
 
 Na próxima seção, iremos introduzir o conteúdo sobre **Getters**, nos vemos lá!
+
+[Próxima Seção](./6-Getters.md)

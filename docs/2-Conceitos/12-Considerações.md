@@ -15,3 +15,5 @@ Tópicos como **componentes assíncronos** e **manipulações de carregamento** 
 [Manipulações de Carregamento](https://alligator.io/vuejs/vue-async-components-load-error/)
 
 * Infelizmente a maioria dos conteúdos de **Vue** ainda estão em inglês, e é exatamente o motivo para a existência deste mini-curso sendo o objetivo conseguir atingir novos entusiastas em **Vue**, então em um futuro poderemos ter tópicos mais específicos traduzidos(por exemplo, o novo Vue 3).
+
+[Próxima Seção](./../3-Vuetify/1-Iniciando%20com%20Vuetify.md)

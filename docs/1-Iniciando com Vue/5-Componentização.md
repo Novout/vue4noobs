@@ -15,3 +15,5 @@ A vantagem da componentização é a reutilização de código e padronização,
 </h1>
 
 Na próxima seção iremos iniciar o estudo dos conceitos do vue, mostrando as suas vantagens em relação ao VanillaJS.
+
+[Próxima Seção](../2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)

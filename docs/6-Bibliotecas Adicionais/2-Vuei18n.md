@@ -38,3 +38,5 @@ Dessa forma, tudo oque for estático em nossa aplicação irá ser exibido a par
 * NÃO iremos mostrar a aplicação do i18n no nosso projeto atual pois iria precisar refazer algumas coisas, o que quebraria a ideia do curso, mas fique á vontade para utilizá-lo!
 
 Na próxima seção iremos aplicar notificações com AWN, nos vemos lá!
+
+[Próxima Seção](./3-VueAWN.md)

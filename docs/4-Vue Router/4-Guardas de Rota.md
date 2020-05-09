@@ -133,3 +133,5 @@ export default [
 Dessa forma podemos fazer vários tipos e reaproveitar verificações.
 
 Na próxima seção iremos explicar um pouco sobre transições em rotas, estaremos te esperando!
+
+[Próxima Seção](./5-Transições%20no%20VueRouter.md)

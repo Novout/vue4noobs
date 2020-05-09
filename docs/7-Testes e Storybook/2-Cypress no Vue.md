@@ -90,3 +90,5 @@ Após rodarmos o comando `yarn test:e2e`, abrirá a segunte tela:
 * O **Cypress** tem muitos recursos disponíveis, recomendamos muito que dê uma olhada na [documentação](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-Can-Be-Simple-Sometimes).
 
 Na próxima seção, iremos mostrar como configurar o **Storybook** em nosso projeto, nos vemos lá!
+
+[Próxima Seção](./3-Storybook.md)

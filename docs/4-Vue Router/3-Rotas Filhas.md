@@ -234,3 +234,5 @@ E como resultado final, o nosso dashboard ficará assim:
 </h1>
 
 Na próxima seção iremos ensinar a como implementar um **Middleware**, nos vemos lá!
+
+[Próxima Seção](./4-Guardas%20de%20Rota.md)

@@ -174,3 +174,5 @@ export default {
 * Os **Watchers** são recomendados para usar quando a necessidade de utilizar código **assíncrono** e quando não há necessidade de **retorno**.
 
 Na próxima seção iremos abordar o funcionamento do **CSS** no **Vue**, te vemos lá!
+
+[Próxima Seção](./4-CSS.md)

@@ -66,3 +66,5 @@ export default new Vuex.Store({
 ```
 
 Na próxima seção iremos criar a nossa **mutation**, nos vemos lá!
+
+[Próxima Seção](./5-Mutations.md)

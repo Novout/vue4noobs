@@ -59,3 +59,5 @@ export default {
 ```
 
 Na próxima seção, iremos te apresentar o **Gridsome**, um gerador de **paginas estáticas**, nos vemos lá!
+
+[Próxima Seção](./2%20-%20Gridsome.md)

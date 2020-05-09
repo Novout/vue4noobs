@@ -221,3 +221,5 @@ Desta forma podemos atrelar diretamente uma variável que receberá o valor de u
 * O **v-model** tem um funcionamento próprio para cada **type**, então recomendamos fortemente que olhe a [documentação](https://br.vuejs.org/v2/guide/forms.html) sobre o **v-model**.
 
 Na próxima seção, iremos falar sobre **computed properties** e **watchers**, mostrando como podem ser úteis durante o seu desenvolvimento, te esperamos lá! :)
+
+[Próxima Seção](./3-Computed%20e%20Watch.md)

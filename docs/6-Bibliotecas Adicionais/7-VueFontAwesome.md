@@ -31,3 +31,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Na próxima seção, iremos introduzir sobre como utilizar o **Jest** no **Vue**, te vemos lá!
 
+[Próxima Seção](../7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
+

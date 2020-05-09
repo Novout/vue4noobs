@@ -68,6 +68,4 @@ new Vue({
 
 Na próxima seção iremos explicar o funcionamento dos **LifeCycleHooks**, te vemos lá!
 
-
-
-
+[Próxima Seção](./6-LifeCycleHooks.md)

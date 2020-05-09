@@ -125,3 +125,5 @@ it('Vue4Noobs está sendo exibido', () => {
 
 Na próxima seção, iremos mostrar como utilizar o **Cypress** no **Vue**, nos vemos lá!
 
+[Próxima Seção](./2-Cypress%20no%20Vue.md)
+

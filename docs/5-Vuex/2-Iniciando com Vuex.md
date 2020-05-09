@@ -41,3 +41,5 @@ O **Vuex** não restringe a estrutura do seu código, sendo possível implementa
 * Se o arquivo da loja for muito grande, basta começar a dividir as actions, mutations e getters em arquivos separados, podendo utilizar operadores de desconstrução do **JavaScript** sem problemas.
 
 Na próxima seção, iremos mostrar formas diferentes de implementar os **estados** em nossas aplicações, nos vemos lá!
+
+[Próxima Seção](./3-State.md)

@@ -300,3 +300,5 @@ export default {
 ```
 
 Na próxima seção iremos mostrar o funcionamento de rotas filhas, implementando inicialmente um protótipo de **dashboard**, te vemos lá!
+
+[Próxima Seção](./3-Rotas%20Filhas.md)

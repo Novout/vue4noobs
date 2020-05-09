@@ -14,3 +14,5 @@ vue init simulatedgreg/electron-vue seu-projeto
 * Recomendamos que estude sobre o **Electron** para o maior aproveitamento da plataforma.
 
 Nos vemos na próxima seção, te esperamos muito lá!
+
+[Próxima Seção](./5%20-%20Parabéns!.md)

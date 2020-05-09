@@ -214,3 +214,5 @@ export default {
 Recomendamos FORTEMENTE que olhe a documentação do [Vuelidate](https://vuelidate.js.org/#sub-form-submission).
 
 Na próxima seção iremos apresentar a forma de fazer **internacionalização** no **Vue**!
+
+[Próxima Seção](./2-Vuei18n.md)

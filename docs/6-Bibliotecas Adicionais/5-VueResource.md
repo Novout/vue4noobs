@@ -32,3 +32,5 @@ this.$http.get('/url')
 Para mais detalhes sobre o **VueLoader** clique [aqui](https://github.com/pagekit/vue-resource)
 
 Na próxima seção, iremos mostrar como utilizar o **TypeScript** no **Vue** com o auxílio do **PropertyDecorator**, nos vemos lá!
+
+[Próxima Seção](./6-VuePropertyDecorator.md)

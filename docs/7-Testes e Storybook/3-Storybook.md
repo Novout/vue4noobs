@@ -19,3 +19,5 @@ Para rodar o **storybook**, usamos o comando `yarn storybook`
 * Não será explicado a sua utilização no projeto pois iria distânciar da ideia do 4noobs, apenas mostramos como utilizar no **Vue**, realmente recomendamos que dê uma lida sobre, pois pode ser muito **útil** para documentação de projetos.
 
 Na próxima seção, iremos começar a mostrar um pouco mais do **Ecossistema** do **Vue**, nos vemos lá!
+
+[Próxima Seção](../8%20-%20Ecossistema%20Vue/1%20-%20Nuxt.md)

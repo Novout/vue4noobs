@@ -12,3 +12,5 @@ Recomendamos que leia a [documentação](https://vue-native.io/docs/installation
 
 Na próxima seção iremos te mostrar como utilizar o **Vue** em conjunto com o **Electron**, nos vemos lá!
 
+[Próxima Seção](./4%20-%20VueElectron.md)
+

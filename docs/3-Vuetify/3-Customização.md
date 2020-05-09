@@ -59,3 +59,5 @@ export default new Vuetify({
 Dessa forma, podemos acessar as cores globais do **Vuetify** de uma forma já **definida**
 
 Na próxima seção iremos discutir um pouco sobre o que virá nas próximas seções, te vemos lá!
+
+[Próxima Seção](./4-Considerações.md)

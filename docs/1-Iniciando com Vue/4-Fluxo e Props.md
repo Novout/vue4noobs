@@ -253,5 +253,7 @@ Recomendados que dê uma olhada melhor sobre a sintaxe dos [templates](https://b
 
 Nos próximos capítulos, iremos introduzir conceitos do **Vue**, como **data**, **methods**, **computed** e **watch**, esperamos te ver lá :)
 
+[Próxima Seção](./5-Componentização.md)
+
 
 

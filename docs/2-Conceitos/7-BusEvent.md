@@ -74,3 +74,6 @@ export default: {
 ```
 
 Na próxima seção iremos de apresentar as transições, te vemos lá!
+
+[Próxima Seção](./8-Transições.md)
+

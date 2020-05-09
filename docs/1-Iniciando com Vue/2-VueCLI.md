@@ -52,7 +52,7 @@ Agora acessamos o **localhost** e teremos a página inicial do projeto gerado pe
 
 Na próxima seção iremos explicar todos os arquivos que estão no projeto, nos vemos lá!
 
-
+[Próxima Seção](./3-Estrutura%20do%20Projeto.md)
 
 
 

@@ -251,3 +251,5 @@ A cara final da nossa landing page:
 </h1>
 
 Na próxima seção iremos mostrar em como customizar opção do **Vuetify**, assim colocando definições para todos os componentes, te vemos lá!
+
+[Próxima Seção](./3-Customização.md)

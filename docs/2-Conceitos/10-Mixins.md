@@ -90,3 +90,5 @@ new Vue({
 * Quando for criar mixins globais, tome muito cuidado pelo fato de ser algo global que estará na instância sempre.
 
 Na próxima seção, iremos ensinar a como utilizar os pre-processadores no **Vue**.
+
+[Próxima Seção](./11-Pre-Processadores.md)

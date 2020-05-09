@@ -95,3 +95,5 @@ Valores múltiplos(Vue v2.3.0+):
 ```html
 <div v-bind:style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"></div>
 ```
+
+[Próxima Seção](./5-Instância%20Vue.md)

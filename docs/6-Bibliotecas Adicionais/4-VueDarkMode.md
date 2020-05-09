@@ -40,3 +40,5 @@ O **VueDarkMode** possui:
 Usando os **componentes*, basta passar as **propriedades** que estão na **documentação** de cada **componente**.
 
 Na próxima seção, iremos mostrar como utilizar o **VueResource**, te vemos lá!
+
+[Próxima Seção](./5-VueResource.md)
