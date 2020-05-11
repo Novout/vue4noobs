@@ -3,7 +3,7 @@
 Os **LifeCycleHooks** são uma parte importante para todos os componentes do **Vue**. Você geralmente precisa saber quando seu componente é criado, adicionado ao DOM, atualizado ou destruído. Os ganchos do ciclo de vida são uma janela de como a biblioteca que você está usando funciona nos bastidores e, como tal, tendem a invocar sentimentos de ansiedade ou inquietação para os recém-chegados.
 
 <h1 align="center">
-  <img src="../../assets/Conceitos/LifeCycleHooks/lifecyclehooks.png" alt="Imagem mostrando todo o funcionamento de um hook" width="70%">
+  <img src="../../../assets/Conceitos/LifeCycleHooks/lifecyclehooks.png" alt="Imagem mostrando todo o funcionamento de um hook" width="70%">
 </h1>
 
 Na próxima seção iremos explicar o funcionamento de um **BusEvent**, te vemos lá!

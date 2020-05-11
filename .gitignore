@@ -1,3 +1,4 @@
 .vscode
 *.vue
 /dist/**
+node_modules

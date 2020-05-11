@@ -157,7 +157,7 @@ export default {
 Irá ser exibido o seguinte:
 
 <h1 align="center">
-  <img src="../../assets/Conceitos/Diretivas/vfor1.png" alt="Imagem mostrando o resultado do v-for">
+  <img src="../../../assets/Conceitos/Diretivas/vfor1.png" alt="Imagem mostrando o resultado do v-for">
 </h1>
 
 * o que o **v-for** está fazendo é pegar a **lista**, definindo cada parte da lista como **item** e percorrendo ele do começo ao fim, com isso podemos exibir itens específicos dos Objects da nossa lista, no caso **item.nome**.

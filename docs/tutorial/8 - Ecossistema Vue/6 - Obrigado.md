@@ -1,4 +1,4 @@
-# Parabéns!
+# Obrigado!
 
 Muito obrigado por concluir o curso! Com todo o conteúdo passado você tem muitas alternativas para aprimorar seu conhecimento utilizado **Vue**!
 

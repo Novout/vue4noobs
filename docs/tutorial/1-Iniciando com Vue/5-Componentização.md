@@ -11,7 +11,7 @@ A vantagem da componentização é a reutilização de código e padronização,
 É comum que um aplicativo seja organizado em uma árvore de componentes aninhados de forma parecido com uma [Árvore](https://pt.wikibooks.org/wiki/Algoritmos_e_Estruturas_de_Dados/%C3%81rvore):
 
 <h1 align="center">
-  <img src="../../assets/Iniciando com Vue/Componentização/componentization.png" alt="Imagem mostrando o sentido de componentização" width="70%">
+  <img src="../../../assets/Iniciando com Vue/Componentização/componentization.png" alt="Imagem mostrando o sentido de componentização" width="70%">
 </h1>
 
 Na próxima seção iremos iniciar o estudo dos conceitos do vue, mostrando as suas vantagens em relação ao VanillaJS.

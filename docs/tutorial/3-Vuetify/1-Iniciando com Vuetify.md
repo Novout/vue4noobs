@@ -14,7 +14,7 @@ Estando em um diretório para criar o projeto, execute o comando `vue ui` para i
 Irá aparecer esta tela:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/create_project_details.png" alt="Imagem mostrando os detalhes" width="50%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/create_project_details.png" alt="Imagem mostrando os detalhes" width="50%">
 </h1>
 
 Crie o projeto com o nome de sua **preferência** e clique em **Next**.
@@ -22,7 +22,7 @@ Crie o projeto com o nome de sua **preferência** e clique em **Next**.
 Na próxima tela selecione a opção **Manual** e de **Next**.
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/create_project_features.png" alt="Imagem mostrando as features" width="80%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/create_project_features.png" alt="Imagem mostrando as features" width="80%">
 </h1>
 
 Vamos deixar selecionado o **Babel** e o **Linter** no momento e de **Next**.
@@ -34,19 +34,19 @@ Na próxima tela, escolha as suas preferências de linter, e depois de **Next**.
 Após avançar, você terá a opção de **salvar seu preset**:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/create_project_preset.png" alt="Imagem mostrando como salvar seu preset" width="50%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/create_project_preset.png" alt="Imagem mostrando como salvar seu preset" width="50%">
 </h1>
 
 Depois se salvar(ou não) seu preset, o vue começará a carregar as depedências (aka yarn install / npm run install).
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/create_project_dependencies.png" alt="Imagem mostrando as dependências" width="30%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/create_project_dependencies.png" alt="Imagem mostrando as dependências" width="30%">
 </h1>
 
 Após isso, teremos o **dashboard** principal do ui:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_dashboard.png" alt="Imagem mostrando o dashboard" width="100%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/project_dashboard.png" alt="Imagem mostrando o dashboard" width="100%">
 </h1>
 
 ## Adicionando Vuetify
@@ -54,17 +54,17 @@ Após isso, teremos o **dashboard** principal do ui:
 Para conseguirmos adicionar o **Vuetify**, iremos em **Plugin**, e no canto superior direito em **Add Plugin**
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_plugin.png" alt="Imagem mostrando as opções de plugin" width="80%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/project_plugin.png" alt="Imagem mostrando as opções de plugin" width="80%">
 </h1>
 
 Procuramos por **Vuetify**, clicamos e depois em `Install vue-cli-plugin-vuetify`
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_vuetify.png" alt="Imagem selecionando o vuetify" width="80%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/project_vuetify.png" alt="Imagem selecionando o vuetify" width="80%">
 </h1>
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_vue_cli.png" alt="Imagem mostrando como avançar" width="20%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/project_vue_cli.png" alt="Imagem mostrando como avançar" width="20%">
 </h1>
 
 Escolha a opção padrão e espere instalar.
@@ -72,7 +72,7 @@ Escolha a opção padrão e espere instalar.
 Agora podemos executar o comando **yarn serve** em nosso projeto, e acesse o localhost que será exibido:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/O que e Vuetify/project_helloworld.png" alt="Imagem mostrando o site do vuetify" width="100%">
+  <img src="../../../assets/Vuetify/O que e Vuetify/project_helloworld.png" alt="Imagem mostrando o site do vuetify" width="100%">
 </h1>
 
 ## Estrutura

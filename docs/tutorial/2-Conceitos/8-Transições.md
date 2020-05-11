@@ -17,7 +17,7 @@ Para isso, o **Vue** usa **classes de transição** padrões para facilitar(talv
 * Exemplo de uma transição simples que envolve a opacidade do elemento:
 
 <h1 align="center">
-  <img src="../../assets/Conceitos/Transições/simple_transition.png" alt="Imagem mostrando todo o funcionamento de um transition" width="70%">
+  <img src="../../../assets/Conceitos/Transições/simple_transition.png" alt="Imagem mostrando todo o funcionamento de um transition" width="70%">
 </h1>
 
 O *-active é na onde definimos o **tempo de transição** da nossa transição, e nas pontas o **estado** que irá ocorrer no começo ou no fim.

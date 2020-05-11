@@ -29,7 +29,7 @@ vue ui
 Usando o comando `vue create vue4noobs` teremos a seguinte tela:
 
 <h1 align="center">
-  <img src="../../assets/Iniciando com Vue/VueCLI/vuecreate.png" alt="Imagem mostrando as opções do vue create">
+  <img src="../../../assets/Iniciando com Vue/VueCLI/vuecreate.png" alt="Imagem mostrando as opções do vue create">
 </h1>
 
 Vamos escolher a **default**, mas se quiser dar uma olhada no que o cli pode acrescentar no seu projeto escolhendo a opção manual, fique a vontade!
@@ -42,12 +42,12 @@ yarn serve
 
 Assim que o servidor terminar de ligar, aparece o **localhost** disponível para acessar a aplicação:
 <h1 align="center">
-  <img src="../../assets/Iniciando com Vue/VueCLI/vuelocalhost.png" alt="Imagem mostrando o localhost">
+  <img src="../../../assets/Iniciando com Vue/VueCLI/vuelocalhost.png" alt="Imagem mostrando o localhost">
 </h1>
 
 Agora acessamos o **localhost** e teremos a página inicial do projeto gerado pelo CLI:
 <h1 align="center">
-  <img src="../../assets/Iniciando com Vue/VueCLI/vueproject.png" alt="Imagem mostrando o projeto inicial" width="400px">
+  <img src="../../../assets/Iniciando com Vue/VueCLI/vueproject.png" alt="Imagem mostrando o projeto inicial" width="400px">
 </h1>
 
 Na próxima seção iremos explicar todos os arquivos que estão no projeto, nos vemos lá!

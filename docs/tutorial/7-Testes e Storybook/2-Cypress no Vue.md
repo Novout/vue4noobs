@@ -78,11 +78,11 @@ describe('Registrar', () => {
 Após rodarmos o comando `yarn test:e2e`, abrirá a segunte tela:
 
 <h1 align="center">
-  <img src="../../assets/Testes e Storybook/Cypress no Vue/e2e.png" alt="Imagem selecionando o vuetify" width="60%">
+  <img src="../../../assets/Testes e Storybook/Cypress no Vue/e2e.png" alt="Imagem selecionando o vuetify" width="60%">
 </h1>
 
 <h1 align="center">
-  <img src="../../assets/Testes e Storybook/Cypress no Vue/e2e-tests.png" alt="Imagem selecionando o vuetify" width="80%">
+  <img src="../../../assets/Testes e Storybook/Cypress no Vue/e2e-tests.png" alt="Imagem selecionando o vuetify" width="80%">
 </h1>
 
 * Para executar os testes basta clicar no nome deles ou em **Rodar todos os testes**.

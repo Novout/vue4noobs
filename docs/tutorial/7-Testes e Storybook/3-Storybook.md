@@ -13,7 +13,7 @@ Agora podemos criar nossas histórias em `./src/stories/**`
 Para rodar o **storybook**, usamos o comando `yarn storybook`
 
 <h1 align="center">
-  <img src="../../assets/Testes e Storybook/Storybook/storybook.png" alt="Imagem selecionando o vuetify" width="60%">
+  <img src="../../../assets/Testes e Storybook/Storybook/storybook.png" alt="Imagem selecionando o vuetify" width="60%">
 </h1>
 
 * Não será explicado a sua utilização no projeto pois iria distânciar da ideia do 4noobs, apenas mostramos como utilizar no **Vue**, realmente recomendamos que dê uma lida sobre, pois pode ser muito **útil** para documentação de projetos.

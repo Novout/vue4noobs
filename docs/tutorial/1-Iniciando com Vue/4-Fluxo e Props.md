@@ -5,7 +5,7 @@ Agora vamos falar sobre o **App.vue** e a propriedade **HelloWorld.vue**:
 ```html
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -221,7 +221,11 @@ Agora vamos falar sobre a **msg** sendo exibida no template
 
 ## Interpolação
 
-A forma de exibir conteúdo da exportação no template chamamos de **interpolação**, passando dois abre e fecha conchetes `{{ <conteudo> }}` para representar
+A forma de exibir conteúdo da exportação no template chamamos de **interpolação**, passando dois abre e fecha conchete para representar
+
+```html
+{{ <conteudo> }}
+```
 
 No **Vue**, conteúdos passados por **interpolação** já são reativos, ou seja, se no **componente-pai** a **msg** for alterada durante a execução do DOM, o que está sendo exibido no template, mesmo por meio de **propriedade**, irá ser automaticamente trocada pelo novo conteúdo.
 

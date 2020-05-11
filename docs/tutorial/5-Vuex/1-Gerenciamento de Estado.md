@@ -7,7 +7,7 @@ Ele é um padrão de gerenciamento de estado + biblioteca para a. Ele serve como
 ## Fluxo
 
 <h1 align="center">
-  <img src="../../assets/Vuex/Gerenciamento de Estado/vuex.png" alt="Imagem mostrando o resultado da estrutura" width="80%">
+  <img src="../../../assets/Vuex/Gerenciamento de Estado/vuex.png" alt="Imagem mostrando o resultado da estrutura" width="80%">
 </h1>
 
 Todo o **Vuex** funciona em torno deste ciclo, mas, oque É esse ciclo você me pergunta:

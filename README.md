@@ -9,7 +9,7 @@
 
   <p align="center">
     <br />
-    <a href="docs/README.md"><strong>Explore a documentação »</strong></a>
+    <a href="https://novout.github.io/vue4noobs"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Novout/vue4noobs/issues">Report Bug</a>

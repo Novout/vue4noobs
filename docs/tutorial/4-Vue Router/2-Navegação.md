@@ -39,7 +39,7 @@ export default {};
 Agora vamos acessar o `localhost:<PORTA>/login`
 
 <h1 align="center">
-  <img src="../../assets/Vue Router/Navegação/login-page.png" alt="Imagem mostrando a página de login" width="20%">
+  <img src="../../../assets/Vue Router/Navegação/login-page.png" alt="Imagem mostrando a página de login" width="20%">
 </h1>
 
 * As rotas **genéricas** sempre ficam na parte de baixo do array, pois a leitura é de cima para baixo.

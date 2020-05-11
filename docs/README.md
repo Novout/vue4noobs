@@ -1,5 +1,3 @@
-# vue4noobs
-
 <h1 align="center">
   <img src="../assets/vue2.png" alt="Vue logo" width="120">
 </h1>
@@ -18,77 +16,81 @@
 
 ### Iniciando com Vue
 
-  0. [Antes de começar](1-Iniciando%20com%20Vue/0-Antes%20de%20começar.md)
-  1. [O que é Vue](1-Iniciando%20com%20Vue/1-O%20que%20e%20Vue.md)
-  2. [VueCLI](1-Iniciando%20com%20Vue/2-VueCLI.md)
-  3. [Estrutura do Projeto](1-Iniciando%20com%20Vue/3-Estrutura%20do%20Projeto.md)
-  4. [Fluxo e Props](1-Iniciando%20com%20Vue/4-Fluxo%20e%20Props.md)
-  5. [Componentização](1-Iniciando%20com%20Vue/5-Componentização.md)
+  0. [Antes de começar](/tutorial/1-Iniciando%20com%20Vue/0-Antes%20de%20começar.md)
+  1. [O que é Vue](/tutorial/1-Iniciando%20com%20Vue/1-O%20que%20e%20Vue.md)
+  2. [VueCLI](/tutorial/1-Iniciando%20com%20Vue/2-VueCLI.md)
+  3. [Estrutura do Projeto](/tutorial/1-Iniciando%20com%20Vue/3-Estrutura%20do%20Projeto.md)
+  4. [Fluxo e Props](/tutorial/1-Iniciando%20com%20Vue/4-Fluxo%20e%20Props.md)
+  5. [Componentização](/tutorial/1-Iniciando%20com%20Vue/5-Componentização.md)
 
 ### Conceitos
 
-  1. [Data-Methods-Modificadores](2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
-  2. [Diretivas](2-Conceitos/2-Diretivas.md)
-  3. [Computed e Watch](2-Conceitos/3-Computed%20e%20Watch.md)
-  4. [CSS](2-Conceitos/4-CSS.md)
-  5. [Instância Vue](2-Conceitos/5-Instância%20Vue.md)
-  6. [LifeCycleHooks](2-Conceitos/6-LifeCycleHooks.md)
-  7. [BusEvent](2-Conceitos/7-BusEvent.md)
-  8. [Transições](2-Conceitos/8-Transições.md)
-  9. [Keep Alive](2-Conceitos/9-Keep%20Alive.md)
-  10. [Mixins](2-Conceitos/10-Mixins.md)
-  11. [Pre-Processadores](2-Conceitos/11-Pre-Processadores.md)
-  12. [Considerações](2-Conceitos/12-Considerações.md)
+  1. [Data-Methods-Modificadores](/tutorial/2-Conceitos/1-Data,%20Methods%20e%20Modificadores.md)
+  2. [Diretivas](/tutorial/2-Conceitos/2-Diretivas.md)
+  3. [Computed e Watch](/tutorial/2-Conceitos/3-Computed%20e%20Watch.md)
+  4. [CSS](/tutorial/2-Conceitos/4-CSS.md)
+  5. [Instância Vue](/tutorial/2-Conceitos/5-Instância%20Vue.md)
+  6. [LifeCycleHooks](/tutorial/2-Conceitos/6-LifeCycleHooks.md)
+  7. [BusEvent](/tutorial/2-Conceitos/7-BusEvent.md)
+  8. [Transições](/tutorial/2-Conceitos/8-Transições.md)
+  9. [Keep Alive](/tutorial/2-Conceitos/9-Keep%20Alive.md)
+  10. [Mixins](/tutorial/2-Conceitos/10-Mixins.md)
+  11. [Pre-Processadores](/tutorial/2-Conceitos/11-Pre-Processadores.md)
+  12. [Considerações](/tutorial/2-Conceitos/12-Considerações.md)
 
 ### Vuetify
 
-  1. [Iniciando com Vuetify](3-Vuetify/1-Iniciando%20com%20Vuetify.md)
-  2. [Criando Componentes](3-Vuetify/2-Criando%20Componentes.md)
-  3. [Customização](3-Vuetify/3-Customização.md)
-  4. [Considerações](3-Vuetify/4-Considerações.md)
+  1. [Iniciando com Vuetify](/tutorial/3-Vuetify/1-Iniciando%20com%20Vuetify.md)
+  2. [Criando Componentes](/tutorial/3-Vuetify/2-Criando%20Componentes.md)
+  3. [Customização](/tutorial/3-Vuetify/3-Customização.md)
+  4. [Considerações](/tutorial/3-Vuetify/4-Considerações.md)
 
 ### VueRouter
 
-  1. [Iniciando com Vue Router](4-Vue%20Router/1-Iniciando%20com%20Vue%20Router.md)
-  2. [Navegação](4-Vue%20Router/2-Navegação.md)
-  3. [Rotas Filhas](4-Vue%20Router/3-Rotas%20Filhas.md)
-  4. [Guardas de Rota](4-Vue%20Router/4-Guardas%20de%20Rota.md)
-  5. [Transições no VueRouter](4-Vue%20Router/5-Transições%20no%20VueRouter.md)
+  1. [Iniciando com Vue Router](/tutorial/4-Vue%20Router/1-Iniciando%20com%20Vue%20Router.md)
+  2. [Navegação](/tutorial/4-Vue%20Router/2-Navegação.md)
+  3. [Rotas Filhas](/tutorial/4-Vue%20Router/3-Rotas%20Filhas.md)
+  4. [Guardas de Rota](/tutorial/4-Vue%20Router/4-Guardas%20de%20Rota.md)
+  5. [Transições no VueRouter](/tutorial/4-Vue%20Router/5-Transições%20no%20VueRouter.md)
 
 ### Vuex
 
-  1. [Gerenciamento de Estado](5-Vuex/1-Gerenciamento%20de%20Estado.md)
-  2. [Iniciando com Vuex](5-Vuex/2-Iniciando%20com%20Vuex.md)
-  3. [State](5-Vuex/3-State.md)
-  4. [Actions](5-Vuex/4-Actions.md)
-  5. [Mutations](5-Vuex/5-Mutations.md)
-  6. [Getters](5-Vuex/6-Getters.md)
-  7. [Estrutura](5-Vuex/7-Estrutura.md)
+  1. [Gerenciamento de Estado](/tutorial/5-Vuex/1-Gerenciamento%20de%20Estado.md)
+  2. [Iniciando com Vuex](/tutorial/5-Vuex/2-Iniciando%20com%20Vuex.md)
+  3. [State](/tutorial/5-Vuex/3-State.md)
+  4. [Actions](/tutorial/5-Vuex/4-Actions.md)
+  5. [Mutations](/tutorial/5-Vuex/5-Mutations.md)
+  6. [Getters](/tutorial/5-Vuex/6-Getters.md)
+  7. [Estrutura](/tutorial/5-Vuex/7-Estrutura.md)
 
 ### Bibliotecas Adicionais
 
-  1. [Vuelidate](6-Bibliotecas%20Adicionais/1-Vuelidate.md)
-  2. [Vuei18n](6-Bibliotecas%20Adicionais/2-Vuei18n.md)
-  3. [VueAWN](6-Bibliotecas%20Adicionais/3-VueAWN.md)
-  4. [VueDarkMode](6-Bibliotecas%20Adicionais/4-VueDarkMode.md)
-  5. [VueResource](6-Bibliotecas%20Adicionais/5-VueResource.md)
-  6. [VuePropertyDecorator](6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
-  7. [VueFontAwesome](6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
+  1. [Vuelidate](/tutorial/6-Bibliotecas%20Adicionais/1-Vuelidate.md)
+  2. [Vuei18n](/tutorial/6-Bibliotecas%20Adicionais/2-Vuei18n.md)
+  3. [VueAWN](/tutorial/6-Bibliotecas%20Adicionais/3-VueAWN.md)
+  4. [VueDarkMode](/tutorial/6-Bibliotecas%20Adicionais/4-VueDarkMode.md)
+  5. [VueResource](/tutorial/6-Bibliotecas%20Adicionais/5-VueResource.md)
+  6. [VuePropertyDecorator](/tutorial/6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
+  7. [VueFontAwesome](/tutorial/6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
 
 ### Testes e Storybook
 
-  1. [Jest no Vue](7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
-  2. [Cypress no Vue](7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
-  3. [Storybook](7-Testes%20e%20Storybook/3-Storybook.md)
+  1. [Jest no Vue](/tutorial/7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
+  2. [Cypress no Vue](/tutorial/7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
+  3. [Storybook](/tutorial/7-Testes%20e%20Storybook/3-Storybook.md)
   
 ### Ecossistema Vue
 
-  1. [Nuxt](8%20-%20Ecossistema%20Vue/1%20-%20Nuxt.md)
-  2. [Gridsome](8%20-%20Ecossistema%20Vue/2%20-%20Gridsome.md)
-  3. [VueNative](8%20-%20Ecossistema%20Vue/3%20-%20VueNative.md)
-  4. [VueElectron](8%20-%20Ecossistema%20Vue/4%20-%20VueElectron.md)
-  5. [Quasar](8%20-%20Ecossistema%20Vue/5%20-%20Quasar.md)
-  6. [Parabèns!](8%20-%20Ecossistema%20Vue/6%20-%20Parabéns!.md)
+  1. [Nuxt](/tutorial/8%20-%20Ecossistema%20Vue/1%20-%20Nuxt.md)
+  2. [Gridsome](/tutorial/8%20-%20Ecossistema%20Vue/2%20-%20Gridsome.md)
+  3. [VueNative](/tutorial/8%20-%20Ecossistema%20Vue/3%20-%20VueNative.md)
+  4. [VueElectron](/tutorial/8%20-%20Ecossistema%20Vue/4%20-%20VueElectron.md)
+  5. [Quasar](/tutorial/8%20-%20Ecossistema%20Vue/5%20-%20Quasar.md)
+  6. [Obrigado](/tutorial/8%20-%20Ecossistema%20Vue/6%20-%20Obrigado.md)
+
+## Repositório
+
+[Github](https://github.com/Novout/vue4noobs)
 
 ## Autores
 

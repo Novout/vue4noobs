@@ -49,7 +49,7 @@ Primeiramente, vamos fazer o Header.
 Crie uma pasta em `./src/components/header/Header.vue`
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/Componentes/component_header_location.png" alt="Imagem selecionando o vuetify" width="25%">
+  <img src="../../../assets/Vuetify/Componentes/component_header_location.png" alt="Imagem selecionando o vuetify" width="25%">
 </h1>
 
 E importe em seu componente App.vue:
@@ -181,7 +181,7 @@ export default {
 Dessa forma, nosso **Header** ficará assim:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/Componentes/component_header_final.png" alt="Imagem selecionando o vuetify" width="100%">
+  <img src="../../../assets/Vuetify/Componentes/component_header_final.png" alt="Imagem selecionando o vuetify" width="100%">
 </h1>
 
 ## Main
@@ -247,7 +247,7 @@ O nosso **main** será bem simples, com a logo da He4rt, descrição e botões:
 A cara final da nossa landing page:
 
 <h1 align="center">
-  <img src="../../assets/Vuetify/Componentes/project_landing_page.png" alt="Imagem selecionando o vuetify" width="100%">
+  <img src="../../../assets/Vuetify/Componentes/project_landing_page.png" alt="Imagem selecionando o vuetify" width="100%">
 </h1>
 
 Na próxima seção iremos mostrar em como customizar opção do **Vuetify**, assim colocando definições para todos os componentes, te vemos lá!
