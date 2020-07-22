@@ -5,5 +5,8 @@
   },
   "devDependencies": {
     "vuepress": "^1.5.0"
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^2.3.0"
   }
 }
