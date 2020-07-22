@@ -10,7 +10,7 @@ module.exports = {
 		},
     nav: [
       { text: "Home", link: "/" },
-      { text: "Tutorial", link: "/tutorial/" },
+      { text: "Tutorial", link: "/tutorial/1-Iniciando%20com%20Vue/0-Antes%20de%20começar.html" },
       { text: "He4rt", link: "https://twitter.com/He4rtDevs" }
     ],
   }

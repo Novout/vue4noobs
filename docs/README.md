@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="../assets/vue2.png" alt="Vue logo" width="120">
+  <img src="../assets/he4rt.svg" alt="Vue logo" width="70%">
 </h1>
 
 <p align="center">Tutorial De Vue para iniciantes em frameworks JavaScript.</p>
