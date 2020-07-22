@@ -5,7 +5,8 @@ module.exports = {
   description: "Vue.js",
   themeConfig: {
     yuu: {
-			defaultDarkTheme: true,
+      defaultDarkTheme: true,
+      defaultColorTheme: "purple",
 		},
     nav: [
       { text: "Home", link: "/" },
