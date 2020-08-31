@@ -78,14 +78,6 @@ export const mutations = {
 }
 ```
 
-## Geração Estática
-
-Para gerarmos páginas estáticas com o **Nuxt**, executamos os seguintes passos:
-
-1: Utilize a versão 2.14.0 ou maior
-2: Coloque `target: "static"` em `nuxt.config.js`
-3: Executa o comando `nuxt generate`
-
 Para criar módulos, utilizamos `store/<nome-do-modulo>.js`:
 
 `store/game.js`
@@ -110,6 +102,14 @@ new Vuex.Store({
   }
 })
 ```
+
+## Geração Estática
+
+Para gerarmos páginas estáticas com o **Nuxt**, executamos os seguintes passos:
+
+1: Utilize a versão 2.14.0 ou maior
+2: Coloque `target: "static"` em `nuxt.config.js`
+3: Executa o comando `nuxt generate`
 
 Na próxima seção, iremos te apresentar o **Gridsome**, um gerador de **paginas estáticas**, nos vemos lá!
 
