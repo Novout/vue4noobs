@@ -33,7 +33,6 @@ O electron-builder já vem com algumas definições de reconhecimento de sistema
 
 ```js
 function createWindow() {
-  // Create the browser window.
   win = new BrowserWindow({
     width: 800,
     height: 600,
