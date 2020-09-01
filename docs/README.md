@@ -86,7 +86,8 @@
   3. [VueNative](/tutorial/8%20-%20Ecossistema%20Vue/3%20-%20VueNative.md)
   4. [VueElectron](/tutorial/8%20-%20Ecossistema%20Vue/4%20-%20VueElectron.md)
   5. [Quasar](/tutorial/8%20-%20Ecossistema%20Vue/5%20-%20Quasar.md)
-  6. [Obrigado](/tutorial/8%20-%20Ecossistema%20Vue/6%20-%20Obrigado.md)
+  6. [Vuepress](/tutorial/8%20-%20Ecossistema%20Vue/6%20-%20Vuepress.md)
+  7. [Obrigado](/tutorial/8%20-%20Ecossistema%20Vue/7%20-%20Obrigado.md)
 
 ## Repositório
 
