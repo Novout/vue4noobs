@@ -26,4 +26,4 @@ build: quasar build
 build:pwa: quasar build -m pwa
 ```
 
-[Próxima Seção](./6%20-%20Obrigado.md)
+[Próxima Seção](./6%20-%Vuepress.md)
