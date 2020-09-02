@@ -14,7 +14,7 @@ Apenas instalar a dependência:
 
 `yarn add ant-design-vue`
 
-O Ant exige que se instale os componentes, vamos usar o exemplo usando o [Botão](https://www.antdv.com/components/button/):
+O Ant exige que se instale os componentes, vamos usar o exemplo utilizando o [Botão](https://www.antdv.com/components/button/):
 
 ```js
 import { Button } from 'ant-design-vue';
