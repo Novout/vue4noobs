@@ -1,6 +1,6 @@
 # Vuex Class Modules
 
-O [Vuex Class Modules](https://github.com/gertqin/vuex-class-modules) pacotes traz uma type-safe em Typescript simples para o **Vuex**.
+O [Vuex Class Modules](https://github.com/gertqin/vuex-class-modules) é um pacote que traz type-safe em conjunto com o Typescript sendo simples para o **Vuex**.
 
 Para adicionar em nosso projeto, utilize o comando `yarn add vuex-class-modules`
 
