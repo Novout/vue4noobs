@@ -62,7 +62,7 @@
   5. [Mutations](/tutorial/5-Vuex/5-Mutations.md)
   6. [Getters](/tutorial/5-Vuex/6-Getters.md)
   7. [Estrutura](/tutorial/5-Vuex/7-Estrutura.md)
-  8. [Modulos](/tutorial/5-Vuex/8-Modules.md)
+  8. [Modules](/tutorial/5-Vuex/8-Modules.md)
 
 ### Bibliotecas Adicionais
 
@@ -74,6 +74,7 @@
   6. [VuePropertyDecorator](/tutorial/6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
   7. [VueFontAwesome](/tutorial/6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
   8. [VuexClassModules](/tutorial/6-Bibliotecas%20Adicionais/8-VuexClassModules.md)
+  9. [AntDesignVue](/tutorial/6-Bibliotecas%20Adicionais/9-AntDesignVue.md)
 
 ### Testes e Storybook
 

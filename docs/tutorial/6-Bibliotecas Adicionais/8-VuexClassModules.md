@@ -59,3 +59,5 @@ export class MeuComponente extends Vue {
 * Chamamos o this.setNome(nome) na Action pois o fluxo do Vuex necessita de commitar para a mutation, por isso não podemos fazer this.nome = nome dentro de uma action.
 
 * Precisamos dos getters em nossos componentes pois dessa forma em caso aconteça uma mutação em nosso store em quanto um item do template está sendo exibido o seu conteúdo não fica estático e acaba sendo aplicado a mundaça no template.
+
+[Próxima Seção](./9-AntDesignVue.md)
