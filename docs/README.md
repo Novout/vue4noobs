@@ -73,6 +73,7 @@
   5. [VueResource](/tutorial/6-Bibliotecas%20Adicionais/5-VueResource.md)
   6. [VuePropertyDecorator](/tutorial/6-Bibliotecas%20Adicionais/6-VuePropertyDecorator.md)
   7. [VueFontAwesome](/tutorial/6-Bibliotecas%20Adicionais/7-VueFontAwesome.md)
+  8. [VuexClassModules](/tutorial/6-Bibliotecas%20Adicionais/8-VuexClassModules.md)
 
 ### Testes e Storybook
 

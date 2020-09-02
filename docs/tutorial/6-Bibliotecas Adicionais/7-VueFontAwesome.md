@@ -29,7 +29,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 * Para usar os ícones sem ser em usa versão default(solid), verifique a documentação.
 
+* Registre os ícones usando o `library.add(faIcone)`
+
 Na próxima seção, iremos introduzir sobre como utilizar o **Jest** no **Vue**, te vemos lá!
 
-[Próxima Seção](../7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
-
+[Próxima Seção](./8-VuexClassModules.md)
