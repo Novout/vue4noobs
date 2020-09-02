@@ -6,7 +6,6 @@
 
 Lembra do começo do nosso curso que usamos o **Vue-CLI** para criar nosso projeto? Iremos utilizar novamente ele!
 
-
 Estando em um diretório para criar o projeto, execute o comando `vue ui` para iniciar a UI. Na outra vez fizemos por comando, agora quero te mostrar como fazer isso diretamente da UI.
 
 * Para adicionar uma biblioteca em um projeto existente, podemos usar o add: `vue add vuetify`
@@ -138,7 +137,7 @@ o **v-btn** leva a página de últimos lançamentos do **Vuetify**, tendo em seu
 
 Não temos nada muito diferente do que já estamos acostumados, o funcionamento dos **v-row** e **v-col** é muito parecido com o display **grid** de nosso querido CSS, iremos também abordar sobre este sistema do **Vuetify** na próxima seção.
 
-* Recomendamos **>MUITO<** que explore a [documentação](https://vuetifyjs.com/pt-BR/getting-started/quick-start/) do **Vuetify**, pois ele possui uma gama muito vasta que pode resolver um problema específico seu.Felizmente muito conteúdo da documentação do **Vuetify** possui tradução!
+* Recomendamos **>MUITO<** que explore a [documentação](https://vuetifyjs.com/pt-BR/getting-started/quick-start/) do **Vuetify**, pois ele possui uma gama muito vasta que pode resolver um problema específico seu.Felizmente muito conteúdo da documentação do **Vuetify** possui tradução para PT-BR!
 
 Nas próximas seções do **Vuetify**, iremos ensinar a como extrair o conteúdo dessa framework UI.
 
