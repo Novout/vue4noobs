@@ -100,4 +100,4 @@ export default {
 
 No próxima capítulo iremos mostrar algumas bibliotecas que podem ser o **game changer** de seu projeto, nos vemos lá!
 
-[Próxima Seção](../6-Bibliotecas%20Adicionais/1-Vuelidate.md)
+[Próxima Seção](./8-Modules.md)

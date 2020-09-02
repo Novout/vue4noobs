@@ -62,6 +62,7 @@
   5. [Mutations](/tutorial/5-Vuex/5-Mutations.md)
   6. [Getters](/tutorial/5-Vuex/6-Getters.md)
   7. [Estrutura](/tutorial/5-Vuex/7-Estrutura.md)
+  8. [Modulos](/tutorial/5-Vuex/8-Modules.md)
 
 ### Bibliotecas Adicionais
 
