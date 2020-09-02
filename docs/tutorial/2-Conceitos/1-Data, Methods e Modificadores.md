@@ -38,7 +38,7 @@ export default {
 </script>
 ```
 
-A sintaxe do **Vue** em tudo que está dentro do **export default** é baseado nos **objetos literais**
+A sintaxe do **Vue** em tudo que está dentro do **export default** é baseado nos [objetos literais](https://tableless.com.br/javascript-objetos-literais-vs-funcoes-construtoras/).
 
 ---
 
