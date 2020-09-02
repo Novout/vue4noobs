@@ -27,8 +27,8 @@ const store = new Vuex.Store({
   }
 })
 
-store.state.a // -> Conseguimos cesso ao state do módulo 'a'
-store.state.b // -> Conseguimos cesso ao state do módulo 'b'
+store.state.a // -> Conseguimos acesso ao state do módulo 'a'
+store.state.b // -> Conseguimos acesso ao state do módulo 'b'
 ```
 
 * O primeiro argumento recebido é o estado local do módulo, **não o do root**. Para acessarmos o root, podemos facilmente desconstruir o objeto:
