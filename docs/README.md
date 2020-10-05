@@ -14,6 +14,8 @@
 
 ## ROADMAP
 
+O curso aborda conceitos tanto do Vue 2.x quanto do Vue 3.x
+
 ### Iniciando com Vue
 
   0. [Antes de começar](/tutorial/1-Iniciando%20com%20Vue/0-Antes%20de%20começar.md)
@@ -91,6 +93,16 @@
   5. [Quasar](/tutorial/8%20-%20Ecossistema%20Vue/5%20-%20Quasar.md)
   6. [Vuepress](/tutorial/8%20-%20Ecossistema%20Vue/6%20-%20Vuepress.md)
   7. [Obrigado](/tutorial/8%20-%20Ecossistema%20Vue/7%20-%20Obrigado.md)
+
+### Vue 3
+
+  1. [API de Composição](/tutorial/9%20-%20Next/1%20-%20API.md)
+  2. [Ecossistema](/tutorial/9%20-%20Next/2%20-%20Ecossistema.md)
+  3. [Hooks](/tutorial/9%20-%20Next/3%20-%20Hooks.md)
+  4. [Suspense](/tutorial/9%20-%20Next/4%20-%20Suspense.md)
+  5. [JSX](/tutorial/9%20-%20Next/5%20-%20JSX.md)
+  6. [TypeScript](/tutorial/9%20-%20Next/6%20-%20Typescript.md)
+  7. [Vite](/tutorial/9%20-%20Next/7%20-%20Vite.md)
 
 ## Repositório
 

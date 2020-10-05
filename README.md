@@ -17,7 +17,7 @@
 
 ## Sobre o Projeto
 
-Produzido com a colaboração da **He4rt Developers**, esse tutorial tem como objetivo principal apresentar e ensinar o básico do framework **Vue** em sua versão **2**, de uma maneira completa e acessível para todos.
+Produzido com a colaboração da **He4rt Developers**, esse tutorial tem como objetivo principal apresentar e ensinar o básico do framework **Vue** em sua versão **2.x** e **3.x**, de uma maneira completa e acessível para todos.
 
 ## Conhecimento Necessário para contribuir
 
