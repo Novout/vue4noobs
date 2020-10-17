@@ -59,14 +59,14 @@ A medida que os projetos de Vue 2.x vão aumentando, cada vez mais fica complica
 import { ref } from 'vue'
 
 export default {
-  setup() {
-    const count = ref(0);
+  setup() { // setup é o antigo created()
+    const count = ref(0); // criando uma referencia
 
-    const increment = () => {
+    const increment = () => { // criando um método
       count++
     }
 
-    return {
+    return { // retornando ao template
       count,
       increment
     }
@@ -150,6 +150,30 @@ export default {
 </script>
 ```
 
+### toRefs
+
+Agora conseguimos criar componentes de formulário de uma forma melhorada, sem a necessidade de utilizar $emit por conta de termos a referência das variáveis.
+
+```html
+<template>
+  <input v-model="nome">
+  <input v-model="idade">
+</template>
+
+<script>
+import { ref, computed, toRefs } from 'vue'
+
+export default {
+  setup(props) { // se desconstruirmos props, perderemos a reatividade.
+    // podemos mutar a variável sem problemas, o estado será atualizado no componente pai
+    const { nome, idade } = toRefs(props)
+
+    return { nome, idade }
+  }
+}
+</script>
+```
+
 ### watchEffect
 
 O watchEffect escuta todas as alterações que estão no estado reativo:
@@ -214,6 +238,22 @@ export default {
   }
 }
 </script>
+```
+
+### Nuxt
+
+O [Nuxt](https://nuxtjs.org/) introduzou o [módulo da API de Composição](https://composition-api.nuxtjs.org/), dessa forma conseguimos utilizar as novas features em nossos projetos:
+
+```js
+// index.vue
+import { defineComponent, useContext } from '@nuxtjs/composition-api'
+
+export default defineComponent({
+  setup() {
+    const { store } = useContext()
+    store.dispatch('action')
+  },
+})
 ```
 
 Na próxima seção iremos mostrar algumas mudanças para utilizar as lib's no Vue 3.x
