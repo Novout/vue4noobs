@@ -54,24 +54,6 @@ export default defineComponent({
 
 ## Diretivas e Modificadores
 
-A sintaxe acaba mudando, ficando readaptada para o JSX:
-
-```jsx
-```jsx
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "App",
-  render() {
-    return (
-      <>
-        <router-view />
-      </>
-    )
-  }
-});
-```
-
 Podemos utilizar diretamente pelo retorno do setup():
 
 ```jsx
