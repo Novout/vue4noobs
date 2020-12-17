@@ -289,7 +289,7 @@ import { ref, defineComponent, useContext } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   setup() {
-    const item = ref({ foo: 'bar' })
+    const item = ref({ foo: 'bar' });
     const { store } = useContext(); // implementação do Vuex
     store.dispatch('action', item.value);
   },
