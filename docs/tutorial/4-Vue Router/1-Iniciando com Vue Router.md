@@ -24,7 +24,7 @@ Criamos um arquivo `vuerouter.js` em `./src/plugins/vuerouter.js'` e adicionamos
 ```js
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import routes from '../routes.js';
+import routes from '@/routes.js';
 
 Vue.use(VueRouter);
 
@@ -37,6 +37,15 @@ export default new VueRouter({
 * Estamos exportando o **VueRouter**, contendo nossas rotas e no modo [history](https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations).
 
 Agora vamos importar em nosso `main.js`.
+
+```js
+// ...
+import router from '@/plugins/vuerouter.js';
+// ...
+const app = new Vue({
+  router
+}).$mount('#app');
+```
 
 Não acabamos ainda, vamos criar o arquivo `routes.js` na raiz do `src` que é a onde ficará a declaração de nossas rotas.
 
@@ -60,6 +69,8 @@ export default [
 * Se ele não encontrar a rota '/', irá para a genérica '*', que no caso dá um redirect para o próprio '/', isso será util quando tivermos mais rotas no projeto.
 
 * Também seria possível criar um componente **Error.vue** por exemplo, e colocar no lugar do **redirect**.
+
+* Você pode utilizar RegEx no `path`.
 
 Vamos transferir o nosso conteúdo de `App.vue` para `./src/pages/Home.vue`.
 
@@ -87,8 +98,8 @@ export default {};
 
 A estrutura final ficou a seguinte:
 
-<h1 align="center">
-  <img src="../../../assets/Vue Router/Iniciando com Vue Router/router-structure.png" alt="Imagem mostrando o resultado da estrutura" width="30%">
+<h1 align='center'>
+  <img src='../../../assets/Vue Router/Iniciando com Vue Router/router-structure.png' alt='Imagem mostrando o resultado da estrutura' width='30%'>
 </h1>
 
 Na próxima seção, iremos criar o nosso formulário de login, e a rota que ela irá redireciar, assim ensinando um pouco sobre **Navegação**, nos veremos lá!
