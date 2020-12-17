@@ -1,6 +1,6 @@
 # Suspense
 
-Suspense é um recurso utilizado no React.js, sendo um recurso especial assim como o `transition` e `transition-group`, seu objetivo é ser um watcher do componente e ter as informações de carregamento. Por mais que podemos monitorar a criação de um componente pelo retorno do setup() sem a necessidade de recursos adicionais, o Suspense vem para utilizar isso de uma forma elegante e que facilite para os desenvolvedores. 
+Suspense é um recurso utilizado no React.js, sendo um recurso especial assim como o `transition` e `transition-group`, seu objetivo é ser um watcher do componente e ter as informações de carregamento. Por mais que podemos monitorar a criação de um componente pelo retorno do setup() sem a necessidade de recursos adicionais, o Suspense vem para utilizar isso de uma forma elegante e que facilite para os desenvolvedores.
 
 Até o momento(17/12/2020), o recurso está em fase beta e não é recomendável para projetos finais.
 
