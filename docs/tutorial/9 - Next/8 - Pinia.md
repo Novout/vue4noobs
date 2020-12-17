@@ -97,4 +97,4 @@ export const useMainStore = defineStore({
 
 * O Pinia ainda está em alpha(17/12/2020), não recomendados para utilizar em produção.
 
-[Próxima Seção](./9%20-%20Obrigado.md)
+[Próxima Seção](./9%20-%20Vuetelemetry.md)
