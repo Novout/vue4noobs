@@ -174,6 +174,45 @@ export default {
 </script>
 ```
 
+### watch
+
+Mantendo a sintaxe parecido com o Vue 2.x, o primeiro parâmetro é o que será escutado e o segundo um callback com a execução da lógica, recebendo o novo valor como parâmetro do callback:
+
+```html
+<script>
+// Switch básico de tema
+import { defineComponent, ref, watch } from "vue";
+import { useDefaultStore } from "@/config"; // Store usando Pinia, explicado em seções futuras
+import { JsonWriteFile } from "@/services/fs"; // Serviço básico para fs/path
+import { useToast } from "vue-toastification"; // vue-toastification já está pronto para Vue 3.x
+
+export default defineComponent({
+  name: "App",
+  setup() {
+    const toast = useToast(); // Sintaxe de Hook, explicado na terceira seção
+    const store = useDefaultStore(); // Sintaxe de Hook, explicado na terceira seção
+    const theme = ref(store.base.theme);
+
+    watch(theme, (newTheme) => {
+      newTheme === "dark" 
+        ? document.querySelector("html").classList.add("dark")
+        : document.querySelector("html").classList.remove("dark");
+
+      store.base.theme = newTheme;
+
+      const msg = newTheme === "dark" ? "Escuro" : "Claro";
+
+      toast.success(`Tema ${msg} selecionado!`);
+
+      JsonWriteFile("config/base.json", store.base);
+    });
+
+    return { theme }
+  }
+});
+</script>
+```
+
 ### watchEffect
 
 O watchEffect escuta todas as alterações que estão no estado reativo:
@@ -246,12 +285,13 @@ O [Nuxt](https://nuxtjs.org/) introduzou o [módulo da API de Composição](http
 
 ```js
 // index.vue
-import { defineComponent, useContext } from '@nuxtjs/composition-api'
+import { ref, defineComponent, useContext } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   setup() {
-    const { store } = useContext()
-    store.dispatch('action')
+    const item = ref({ foo: 'bar' })
+    const { store } = useContext(); // implementação do Vuex
+    store.dispatch('action', item.value);
   },
 })
 ```
