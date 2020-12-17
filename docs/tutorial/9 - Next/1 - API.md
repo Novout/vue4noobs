@@ -1,6 +1,6 @@
 # Vue 3
 
-O [Vue Next](https://github.com/vuejs/vue-next) e mais conhecido como Vue 3.x vem com a proposta de agregar maior flexibilidade e utilidades gerais aos projetos Vue.
+O [Vue Next](https://github.com/vuejs/vue-next) e mais conhecido como Vue 3.x vem com a proposta de agregar maior flexibilidade e utilidades gerais aos projetos Vue, sem mudar drasticamente o Vue.
 
 ## Iniciando no Vue-Next
 
@@ -15,10 +15,10 @@ Em um projeto na versão 2.x já existente, execute o comando:
 O nosso querido `main.js` possui diferenças:
 
 ```js
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+createApp(App).mount('#app');
 ```
 
 Agora utilizamos o `createApp` para criar a nossa instância, ao invés do `new Vue`
@@ -261,19 +261,21 @@ import { onBeforeMounted, onMounted, onUnmounted } from 'vue'
 
 export default {
   setup() {
+    const item = ref({ foo: 'bar' });
+
     onBeforeMounted(() => {
-      console.log('ainda estou montando!')
+      console.log('ainda estou montando!');
     }
 
     onMounted(() => {
-      console.log('montado!')
+      localStorage.setItem('item', JSON.stringify(item.value));
     })
   
     onUnmounted(() => {
-      console.log('desmontado!')
+      localStorage.removeItem('item');
     })
 
-    return {}
+    return { item }
   }
 }
 </script>
@@ -295,6 +297,8 @@ export default defineComponent({
   },
 })
 ```
+
+* Se quiser se aprofundar na API, recomendamos a [documentação](https://composition-api.vuejs.org/#summary).
 
 Na próxima seção iremos mostrar algumas mudanças para utilizar as lib's no Vue 3.x
 
