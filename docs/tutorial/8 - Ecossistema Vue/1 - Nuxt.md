@@ -113,4 +113,8 @@ Para gerarmos páginas estáticas com o **Nuxt**, executamos os seguintes passos
 
 Na próxima seção, iremos te apresentar o **Gridsome**, um gerador de **paginas estáticas**, nos vemos lá!
 
+## Modulos
+
+O Nuxt possui um próprio site que exibe os [módulos feitos para nuxt](https://modules.nuxtjs.org/), onde conseguimos encontrar com facilidade integrações prontas com o Nuxt.js
+
 [Próxima Seção](./2%20-%20Gridsome.md)
