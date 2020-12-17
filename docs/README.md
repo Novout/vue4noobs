@@ -4,7 +4,6 @@
 
 <p align="center">Tutorial De Vue para iniciantes em frameworks JavaScript.</p>
 
-
 ## Necessário
 
 - Conhecimento sobre HTML, CSS
@@ -103,6 +102,10 @@ O curso aborda conceitos tanto do Vue 2.x quanto do Vue 3.x
   5. [JSX](/tutorial/9%20-%20Next/5%20-%20JSX.md)
   6. [TypeScript](/tutorial/9%20-%20Next/6%20-%20Typescript.md)
   7. [Vite](/tutorial/9%20-%20Next/7%20-%20Vite.md)
+  8. [Pinia](/tutorial/9%20-%20Next/8%20-%20Pinia.md)
+  9. [Vuetelemetry](/tutorial/9%20-%20Next/9%20-%20Vuetelemetry.md)
+  10. [IonicVue](/tutorial/9%20-%20Next/10%20-%20IonicVue.md)
+  11. [Obrigado](/tutorial/9%20-%20Next/11%20-%20Obrigado.md)
 
 ## Repositório
 
