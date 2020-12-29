@@ -84,7 +84,7 @@ Podemos encadear condições, parecido com a sintaxe de algumas linguagens como 
 <template>
   <section>
     <p v-if="mostrar">1</p>
-    <p v-else="mostrar">2</p>
+    <p v-else>2</p>
     <p>3</p>
   </section>
 </template>
@@ -181,7 +181,7 @@ o **v-for** não altera a maioria das diretivas, podendo usar normalmente, por e
 ```html
 <template>
   <section>
-    <article v-for="(item, index) in list" :key="index">
+    <article v-for="(item, index) in lista" :key="index">
       <p v-if="item.id % 2 === 0">Par</p>
       <p v-else>Ímpar</p>
     </article>
