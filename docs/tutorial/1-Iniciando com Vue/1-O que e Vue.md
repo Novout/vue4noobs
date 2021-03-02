@@ -31,9 +31,11 @@ Utilizando este conceito conseguimos construir aplicações frontend de forma ro
 Virtual DOM é um framework para manipulação do DOM(Document Object Model) que é utilizado pelo **Vue**, ele faz uma representação do DOM real na linguagem JavaScript, ou seja, o DOM verdadeiro é gerado a partir do DOM Virtual.Por conta disso, o **Vue** utiliza o **vue-loader** para fazer todo o ciclo do Virtual DOM e conseguir transformar no DOM final.
 
 ## VueLoader
+
 O **vue-loader** irá analisar o arquivo, pegar cada bloco de linguagem e montá-lo de volta em um módulo CommonJs cujo module.exports seja um objeto de opções do componente **Vue.js**.
 
-Para manipular, o **Vue** utiliza um sistemas de componentes com a extensão **.vue**. O arquivo é um formato de arquivo personalizado que usa a sintaxe parecido com o HTML para descrever um componente Vue. Cada arquivo é dividido em três partes: `<template>, <script>, <style>`.
+Para manipular, o **Vue** utiliza um sistema de componentes com a extensão **.vue**. O arquivo é um formato de arquivo personalizado que usa a sintaxe parecido com o HTML para descrever um componente Vue. Cada arquivo é dividido em três partes: `<template>, <script>, <style>`.
+
 ```vue
 <template>
   <div class="exemplo">He4rt Developers</div>
