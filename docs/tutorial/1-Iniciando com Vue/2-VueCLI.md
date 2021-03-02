@@ -3,6 +3,7 @@
 Neste tutorial iremos utilizar **vue-cli** para a criação do nosso projeto, pois ele irá facilitar a instalação de plugins além de ter uma interface agradável.
 
 Primeiramente, abre o terminal para instalar o **vue-cli**
+
 ```sh
 yarn global add @vue/cli
 # ou por npm
@@ -10,16 +11,19 @@ npm install -g @vue/cli
 ```
 
 Agora para verificar se o cli foi instalado:
+
 ```sh
 vue --version
 ```
 
 Podemos criar o nosso projeto de duas formas:
+
 ```sh
 vue create <nome-do-projeto>
 ```
 
 Ou podemos usar a UI:
+
 ```sh
 vue ui
 ```
@@ -35,6 +39,7 @@ Usando o comando `vue create vue4noobs` teremos a seguinte tela:
 Vamos escolher a **default**, mas se quiser dar uma olhada no que o cli pode acrescentar no seu projeto escolhendo a opção manual, fique a vontade!
 
 Quando a instalação dos pacotes for concluida, execute os comandos:
+
 ```sh
 cd vue4noobs
 yarn serve

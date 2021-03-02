@@ -25,7 +25,7 @@ Agora iremos explicar sobre cada arquivo que contém no projeto. Se você optou 
 
 ## public/index.html
 
-É a onde o virtual DOM irá transformar no DOM final, anexando no html. 
+É a onde o virtual DOM irá transformar no DOM final, anexando no html.
 
 ## src/assets/**
 
@@ -40,7 +40,6 @@ Todos os componentes da aplicação ficarão aqui, as **rotas** normalmente fica
 O componente base da aplicação. Normalmente, a rota inicial de nosso projeto terá o conteúdo neste Arquivo, pois é ele que sera o "intermediador" principal da aplicação.
 
 * Quando usarmos o [VueRouter](https://router.vuejs.org/) este arquivo vira o **view-router** principal. Sobre o **VueRouter**, recomendamos estar sobre apenas quando acabar sobre o básico do **Vue** para não confundir conceitos.
-
 
 ## src/main.js
 
