@@ -4,7 +4,8 @@ module.exports = {
   theme: "yuu",
   description: "Vue.js",
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }]
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: 'google-site-verification', content: 'g3Sv5vbTY0qPQyuRyjR322G-PV1A5hD9pQ3EN3lWKpI' }],
   ],
   themeConfig: {
     yuu: {
