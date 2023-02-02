@@ -82,6 +82,7 @@ O curso aborda conceitos tanto do Vue 2.x quanto do Vue 3.x
   1. [Jest no Vue](/tutorial/7-Testes%20e%20Storybook/1-Jest%20no%20Vue.md)
   2. [Cypress no Vue](/tutorial/7-Testes%20e%20Storybook/2-Cypress%20no%20Vue.md)
   3. [Storybook](/tutorial/7-Testes%20e%20Storybook/3-Storybook.md)
+  4. [Vitest](/tutorial/7-Testes%20e%20Storybook/4-Vitest.md)
   
 ### Ecossistema Vue
 
@@ -114,5 +115,6 @@ O curso aborda conceitos tanto do Vue 2.x quanto do Vue 3.x
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
+* **Lucas Souza (deverebor)** - *Frontend Software Engineer at Juntos Somos Mais & Member of He4rt Developers* - [Twitter](https://twitter.com/deverebor)
 
 <p align="center">Made with 💜</p>
