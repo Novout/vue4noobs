@@ -115,5 +115,6 @@ O curso aborda conceitos tanto do Vue 2.x quanto do Vue 3.x
 ## Autores
 
 * **Giovane Cardoso (Novout)** -  *Freelance Frontend Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/NovoutT)
+* **Lucas Souza (deverebor)** - *Frontend Software Engineer at Juntos Somos Mais & Member of He4rt Developers* - [Twitter](https://twitter.com/deverebor)
 
 <p align="center">Made with 💜</p>
