@@ -379,4 +379,4 @@ Além disso também é possível se utilizar nesting em seletores *"fantasmas"* 
 }
 ```
 
-[Próxima seção - SCSS Avançado](./13-SCSS-Avan%C3%A7ado.md)
+[Próxima seção - SCSS Avançado](./13-SCSS-Avançado.md)
