@@ -40,15 +40,15 @@ Os programas a seguir são necessários para estender, modificar e utilizar o pr
 
 ### Instalação
 
-Clone o repositorio
+Clone o repositório
 
-```sh
+```zsh
 git clone https://github.com/Novout/vue4noobs.git
 ```
 
 Rode o projeto:
 
-```js
+```zsh
 yarn && yarn dev
 ```
 
@@ -69,3 +69,4 @@ são **extremamente apreciadas**
 ## Colaboradores
 
 Giovane Cardoso - Developer [@NovoutT](https://twitter.com/NovoutT) - novout@hotmail.com
+Lucas Souza (@deverebor) - *Frontend Software Engineer at Juntos Somos Mais* - [Twitter](https://twitter.com/deverebor)
