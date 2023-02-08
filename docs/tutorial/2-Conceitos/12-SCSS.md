@@ -29,7 +29,7 @@ $size: 12px;
 }
 ```
 
-```sass
+```
 // SASS
 
 $color: #f00
@@ -37,7 +37,7 @@ $size: 12px
 
 .box
   color: $color
-  font-size: $size.
+  font-size: $size
 ```
 
 ## Instalação no seu projeto
@@ -169,6 +169,7 @@ Vamos supor que em diversos componentes você possui a mesma lógica de estilo, 
 
 ```scss
 // box.scss
+
 .box {
   color: #f00;
   font-size: 12px;
@@ -177,6 +178,7 @@ Vamos supor que em diversos componentes você possui a mesma lógica de estilo, 
 
 ```scss
 // panel.scss
+
 .panel {
   color: #f00;
   font-size: 12px;
@@ -185,6 +187,7 @@ Vamos supor que em diversos componentes você possui a mesma lógica de estilo, 
 
 ```scss
 // card.scss
+
 .card {
   color: #f00;
   font-size: 12px;
@@ -197,6 +200,7 @@ Em vez de repetir esse bloco de código em todos os componentes, você pode cria
 
 ```scss
 // mixins.scss
+
 @mixin default-color-and-font-size {
   color: #f00;
   font-size: 12px;
