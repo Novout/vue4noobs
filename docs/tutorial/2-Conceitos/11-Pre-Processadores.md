@@ -20,6 +20,22 @@ Dessa forma, podemos agora utilizar o sass:
 </style>
 ```
 
+Para essa estilização se manter apenas no seu escopo, é necessário que você adicione o `scoped` no seu `style`:
+
+```vue
+<style lang="sass" scoped>
+
+</style>
+```
+
+Dessa maneira o estilo que for escrito aqui não passara para outro componente.
+
+Caso a estilização do seu componente se torne grande ou você deseja organizar melhor seus estilos é possível criar um arquivo `.scss` adicionamos como dependência:
+
+```vue
+<style src="./MyComponentStyle" lang="sass" scoped />
+```
+
 ## PugJS
 
 ```zsh
