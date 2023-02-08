@@ -17,30 +17,30 @@ Já o extends gera uma referência para a classe original.
 /// Mixin input
 
 @mixin placeHolder {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 .classe1 {
-    @include placeholder;
+  @include placeholder;
 }
 .classe2 {
-    @include placeholder;
+  @include placeholder;
 }
 
 /// Mixin output
 .classe1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 .classe2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 ```
 
@@ -49,27 +49,27 @@ Já o extends gera uma referência para a classe original.
 ```scss
 /// Extend input
 %placeHolder {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .classe1 {
-    @extend %placeHolder;
+  @extend %placeHolder;
 }
 
 .classe2 {
-    @extend %placeHolder;
+  @extend %placeHolder;
 }
 
 /// Extend output
 .classe1,
 .classe2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 ```
 
