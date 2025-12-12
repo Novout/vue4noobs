@@ -2,7 +2,7 @@
 
 Os **getters** funcionam da mesma forma que as **computeds**, e no nosso caso iremos usar para concatenar a string que será exibida no nosso `/dashboard`:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -39,7 +39,7 @@ Dessa forma, podemos utilizar o `usuarioBemVindo` no template:
 
 `./src/pages/Dashboard.vue`
 
-```js
+```ts
 <v-list-item>
   <v-list-item-content>
     <v-list-item-title>{{ usuarioBemVindo }}</v-list-item-title>

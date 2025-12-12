@@ -53,21 +53,6 @@ props: {
 }
 ```
 
-## Com Hooks
-
-Podemos tipar os hook's, inclusive de lib's oficiais:
-
-```ts
-// ./src/use/store
-import { Store } from "vuex"; // store interno
-import { State } from "@/store/state"; // estado inicial
-import { store } from "@/store"; // instância do store
-
-export const useStore = () => {
-  return store as Store<State>;
-}
-```
-
 ## Geral
 
 O Typescript no Vue 3.x não possui limitações iguais ao Vue 2.x, podendo tipar da forma que preferir.

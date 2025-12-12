@@ -8,7 +8,7 @@ Mas para um aplicativo com arquitetura simples, basta comunicar-se entre compone
 
 Primeiro de tudo, precisamos de um mecanismo para transferir eventos entre componentes. Devido à simplicidade do **Vue**, ele nos permite criar uma nova **instância** com facilidade:
 
-```js
+```ts
 // ./src/event-bus.js
 import Vue from 'vue';
 
@@ -19,7 +19,7 @@ export default EventBus;
 
 Aqui temos um componente que importa o Vue e o EventBus. Quando o método **emitirEvento** do componente é chamado, ele emite um novo evento chamado **FORMULARIO** e passa uma carga útil junto com ele.
 
-```js
+```ts
 // primeiro-componente.js
 import Vue from 'vue';
 import EventBus from './event-bus';
@@ -41,7 +41,7 @@ Vue.component('primeiro-componente', {
 
 Em outro componente, podemos registrar um ouvinte que escuta o evento **FORMULARIO** a ser transportado usando o EventBus. Assim que o evento aparecer, podemos executar o JavaScript com o payLoad recebido como argumento.
 
-```js
+```ts
 // segundo-componente.js
 import Vue from 'vue';
 import EventBus from './event-bus';
@@ -59,7 +59,7 @@ E pronto! Dessa forma conseguimos comunicar dois componentes filhos se a necessi
 
 Para anexar os componentes:
 
-```js
+```ts
 <script>
 import PrimeiroComponente from './primeiro-componente';
 import SegundoComponente from './segundo-componente';

@@ -6,7 +6,7 @@ Instalação: `yarn add vue-resource`
 
 ## Configuração
 
-```js
+```ts
 new Vue({
   http: {
     root: '/root',
@@ -19,7 +19,7 @@ new Vue({
 
 ## Exemplo
 
-```js
+```ts
 this.$http.get('/url')
   .then(res => {
 

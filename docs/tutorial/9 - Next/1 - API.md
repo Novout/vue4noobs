@@ -1,20 +1,16 @@
 # Vue 3
 
-O [Vue Next](https://github.com/vuejs/vue-next) e mais conhecido como Vue 3.x vem com a proposta de agregar maior flexibilidade e utilidades gerais aos projetos Vue, sem mudar drasticamente o Vue.
+O [Novo Vue](https://github.com/vuejs/vue-next) e mais conhecido como Vue 3.x vem com a proposta de agregar maior flexibilidade e utilidades gerais aos projetos Vue, sem mudar drasticamente o Vue.
 
-## Iniciando no Vue-Next
+## Iniciando no Vue com Vite
 
-Atualizando o [VueCLI](https://cli.vuejs.org/), já tera disponível a opção de inicializar o projeto com a versão 3.x.
-
-Em um projeto na versão 2.x já existente, execute o comando:
-
-`yarn add vue@next`
+Use `pnpm create vite my-vue-app --template vue`
 
 ### Construção da Instância
 
 O nosso querido `main.js` possui diferenças:
 
-```js
+```ts
 import { createApp } from 'vue';
 import App from './App.vue';
 
@@ -25,7 +21,7 @@ Agora utilizamos o `createApp` para criar a nossa instância, ao invés do `new 
 
 Para acrescentar dependências, utilizamos:
 
-```js
+```ts
 // Exemplo utilizando vuex e vue-router
 import { createApp } from "vue";
 import App from "./App.vue";
@@ -55,37 +51,24 @@ A medida que os projetos de Vue 2.x vão aumentando, cada vez mais fica complica
   </button>
 </template>
 
-<script>
+<script setup lang="ts">
 import { ref } from 'vue'
 
-export default {
-  setup() { // setup é o antigo created()
-    const count = ref(0); // criando uma referencia
+const text = ref('foo'); // criando uma referencia
 
-    const increment = () => { // criando um método
-      count++
-    }
-
-    return { // retornando ao template
-      count,
-      increment
-    }
-  }
+const log = () => { // criando um método
+  console.log(text)
 }
 </script>
 ```
 
-* o setup() significa a mesma coisa que o antigo hook `created()`, e podemos retornar o que queremos que o template tenha acesso.
-
-* Utilizamos o ref para criar uma referência do `count`, e retornamos o estado.
+* Utilizamos o ref para criar uma referência do `text`, e retornamos o estado.
 
 * Diferente do Vue 2.x, não temos necessidade de utilizar o `this.**`.
 
-* Podemos mutar a variável diretamente pelo template, como: `@click="++count"`
-
 O setup recebe dois argumentos:
 
-```js
+```ts
 setup(props, context) {
   console.log(props);
   console.log(context);
@@ -95,25 +78,16 @@ setup(props, context) {
 Podemos também formar grupos de objetos com o `reactive`(anterior no Vue 2.x como Vue.observable)
 
 ```html
-<script>
+<script setup lang="ts">
 import { reactive } from 'vue'
 
-export default {
-  setup() {
-    const state = reactive({
-      nome: 'Jorge',
-      idade: 20
-    })
+const state = reactive({
+  nome: 'Jorge',
+  idade: 20
+})
 
-    const trocarNome = nome => {
-      state.nome = nome
-    }
-
-    return {
-      state,
-      trocarNome
-    }
-  }
+const trocarNome = nome => {
+  state.nome = nome
 }
 </script>
 ```
@@ -130,47 +104,13 @@ export default {
 <script>
 import { ref, computed } from 'vue'
 
-export default {
-  setup() {
-    const count = ref(0);
+const count = ref(0);
 
-    const increment = () => {
-      count++
-    }
-
-    const total = computed(() => 'Total é: ' + count)
-
-    return {
-      count,
-      total,
-      increment
-    }
-  }
+const increment = () => {
+  count.value++
 }
-</script>
-```
 
-### toRefs
-
-Agora conseguimos criar componentes de formulário de uma forma melhorada, sem a necessidade de utilizar $emit por conta de termos a referência das variáveis.
-
-```html
-<template>
-  <input v-model="nome">
-  <input v-model="idade">
-</template>
-
-<script>
-import { ref, computed, toRefs } from 'vue'
-
-export default {
-  setup(props) { // se desconstruirmos props, perderemos a reatividade.
-    // podemos mutar a variável sem problemas, o estado será atualizado no componente pai
-    const { nome, idade } = toRefs(props)
-
-    return { nome, idade }
-  }
-}
+const total = computed(() => 'Total é: ' + count.value)
 </script>
 ```
 
@@ -179,75 +119,31 @@ export default {
 Mantendo a sintaxe parecido com o Vue 2.x, o primeiro parâmetro é o que será escutado e o segundo um callback com a execução da lógica, recebendo o novo valor como parâmetro do callback:
 
 ```html
-<script>
+<script setup lang="ts">
 // Switch básico de tema
-import { defineComponent, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import { useDefaultStore } from "@/config"; // Store usando Pinia, explicado em seções futuras
 import { JsonWriteFile } from "@/services/fs"; // Serviço básico para fs/path
 import { useToast } from "vue-toastification"; // vue-toastification já está pronto para Vue 3.x
 
-export default defineComponent({
-  name: "App",
-  setup() {
-    const toast = useToast(); // Sintaxe de Hook, explicado na terceira seção
-    const store = useDefaultStore(); // Sintaxe de Hook, explicado na terceira seção
-    const theme = ref(store.base.theme);
+const toast = useToast(); // Sintaxe de Hook, explicado na terceira seção
+const store = useDefaultStore(); // Sintaxe de Hook, explicado na terceira seção
+const theme = ref(store.base.theme);
 
-    watch(theme, (newTheme) => {
-      newTheme === "dark" 
-        ? document.querySelector("html").classList.add("dark")
-        : document.querySelector("html").classList.remove("dark");
+watch(theme, (newTheme) => {
+  newTheme === "dark" 
+    ? document.querySelector("html").classList.add("dark")
+    : document.querySelector("html").classList.remove("dark");
 
-      store.base.theme = newTheme;
+  store.base.theme = newTheme;
 
-      const msg = newTheme === "dark" ? "Escuro" : "Claro";
+  const msg = newTheme === "dark" ? "Escuro" : "Claro";
 
-      toast.success(`Tema ${msg} selecionado!`);
+  toast.success(`Tema ${msg} selecionado!`);
 
-      JsonWriteFile("config/base.json", store.base);
-    });
-
-    return { theme }
-  }
+  JsonWriteFile("config/base.json", store.base);
 });
-</script>
-```
 
-### watchEffect
-
-O watchEffect escuta todas as alterações que estão no estado reativo:
-
-```html
-<template>
-  <button @click.prevent="increment">
-    {{ total }}
-  </button>
-</template>
-
-<script>
-import { ref, computed, watchEffect } from 'vue'
-
-export default {
-  setup() {
-    const count = ref(0);
-
-    const increment = () => {
-      count++
-    }
-
-    const total = computed(() => 'Total é: ' + count)
-
-    watchEffect(() => {
-      console.log(count)
-    })
-
-    return {
-      count,
-      total,
-      increment
-    }
-  }
-}
 </script>
 ```
 
@@ -255,47 +151,43 @@ export default {
 
 Temos os mesmos life cycles, só que agora na API:
 
-```html
-<script>
-import { onBeforeMounted, onMounted, onUnmounted } from 'vue'
+```ts
+<script setup lang="ts">
+import { onBeforeMounted, onMounted, onUnmounted, ref } from 'vue'
 
-export default {
-  setup() {
-    const item = ref({ foo: 'bar' });
+const item = ref({ foo: 'bar' });
 
-    onBeforeMounted(() => {
-      console.log('ainda estou montando!');
-    }
-
-    onMounted(() => {
-      localStorage.setItem('item', JSON.stringify(item.value));
-    })
-  
-    onUnmounted(() => {
-      localStorage.removeItem('item');
-    })
-
-    return { item }
-  }
+onBeforeMounted(() => {
+  console.log('foo/bar/baz');
 }
-</script>
+
+onMounted(() => {
+  localStorage.setItem('item', JSON.stringify(item.value));
+})
+
+onUnmounted(() => {
+  localStorage.removeItem('item');
+})
+cript>
 ```
 
 ### Nuxt
 
-O [Nuxt](https://nuxtjs.org/) introduzou o [módulo da API de Composição](https://composition-api.nuxtjs.org/), dessa forma conseguimos utilizar as novas features em nossos projetos:
+O [Nuxt 4](https://nuxtjs.org/) introduzou o [módulo da API de Composição](https://composition-api.nuxtjs.org/), dessa forma conseguimos utilizar as novas features em nossos projetos:
 
-```js
-// index.vue
-import { ref, defineComponent, useContext } from '@nuxtjs/composition-api'
+```ts
+<script setup lang="ts">
+import type { NuxtError } from '#app'
 
-export default defineComponent({
-  setup() {
-    const item = ref({ foo: 'bar' });
-    const { store } = useContext(); // implementação do Vuex
-    store.dispatch('action', item.value);
-  },
-})
+const props = defineProps<{ error: NuxtError }>()
+</script>
+
+<template>
+  <div>
+    <h1>{{ error.statusCode }}</h1>
+    <NuxtLink to="/">Go back home</NuxtLink>
+  </div>
+</template>
 ```
 
 * Se quiser se aprofundar na API, recomendamos a [documentação](https://composition-api.vuejs.org/#summary).

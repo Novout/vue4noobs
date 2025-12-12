@@ -10,7 +10,7 @@ Execute o comando:
 
 no main.js:
 
-```js
+```ts
 import { createPinia } from 'pinia';
 
 app.use(createPinia());// sintaxe diferente de outras bibliotecas
@@ -18,7 +18,7 @@ app.use(createPinia());// sintaxe diferente de outras bibliotecas
 
 Agora, vamos criar nossa primeira loja:
 
-```js
+```ts
 // ./src/store/default
 import { defineStore } from 'pinia';
 
@@ -52,7 +52,7 @@ export const useDefaultStore = defineStore({
 
 * Usamos a nova sintaxe de Hook's:
 
-```js
+```ts
 import { useDefaultStore } from '@/store/default'
 
 export default defineComponent({
@@ -77,7 +77,7 @@ export default defineComponent({
 
 Podemos interligar as lojas de uma maneira muito fácil:
 
-```js
+```ts
 import { defineStore } from 'pinia';
 import { useUserStore } from './user';
 import { useHe4rtStore } from './heart';

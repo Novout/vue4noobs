@@ -20,7 +20,7 @@ Onde ficará nossos testes
 
 `./tests/e2e/specs/index.js`
 
-```js
+```ts
 describe('My First Test', () => {
   it('Visits the app root url', () => {
     cy.visit('/');
@@ -35,7 +35,7 @@ describe('My First Test', () => {
 
 Agora vamos reformular para a nossa página:
 
-```js
+```ts
 describe('Página Inicial', () => {
   it('Visitando a página inicial', () => {
     cy.visit('/');
@@ -60,7 +60,7 @@ describe('Página Inicial', () => {
 
 Agora vamos criar o `register.js`, com o seguinte:
 
-```js
+```ts
 describe('Registrar', () => {
   it('Criando conta', () => {
     cy.visit('/register');

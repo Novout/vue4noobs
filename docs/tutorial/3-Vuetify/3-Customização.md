@@ -4,7 +4,7 @@ Vamos agora customizar o nosso **tema**, para conseguirmos seguir uma padroniza�
 
 Quando instalamos o **Vuetify**, foi criado uma pasta **plugins** contendo o **vuetify.js**:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 
@@ -18,7 +18,7 @@ Dentro do **Vuetify** podemos passar configurações por padrão.
 
 Por exemplo, vamos passar o tema padrão para a aplicação:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 
@@ -35,7 +35,7 @@ export default new Vuetify({
 
 Podemos também customizar diretamente as **cores**:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 

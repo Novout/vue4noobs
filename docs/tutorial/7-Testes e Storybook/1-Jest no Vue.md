@@ -42,7 +42,7 @@ Os arquivos gerados são:
 
 Todo arquivo de teste possui **spec.js**, para o **Jest** entender quais são os arquivos de **testes**.
 
-```js
+```ts
 import { shallowMount } from '@vue/test-utils';
 import HelloWorld from '@/components/HelloWorld.vue';
 
@@ -65,7 +65,7 @@ Esse teste gerado é o **default**, no caso ele **monta** o componente que delet
 
 Primeiramente vamos renomear nosso arquivo para `Home.spec.js` e substituir seu conteúdo para:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import { shallowMount, createLocalVue } from '@vue/test-utils';
@@ -102,7 +102,7 @@ Vamos fazer outros testes agora, um pouco mais elaborados:
 
 ## Header pertence ao componente
 
-```js
+```ts
 it('header.vue está no componente', () => {
   expect(wrapper.find('.header-stub').exists());
 });
@@ -114,7 +114,7 @@ it('header.vue está no componente', () => {
 
 ## Texto do Vue4Noobs
 
-```js
+```ts
 it('Vue4Noobs está sendo exibido', () => {
   const noobs = wrapper.find('p').text();
   expect(noobs).toBe('Vue4Noobs');

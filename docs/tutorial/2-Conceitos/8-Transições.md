@@ -26,7 +26,7 @@ O *-active é na onde definimos o **tempo de transição** da nossa transição,
 
 Iremos agora mostrar um exemplo na prática usando as **transições**:
 
-```js
+```ts
 <template>
   <div>
     <button @click="mostrar = !mostrar">Clique aqui</button>
@@ -68,7 +68,7 @@ export default {
 
 Assim como as transições, podemos usar **animações** de uma forma parecido em nossos componentes **transition**:
 
-```js
+```ts
 <template>
   <div>
     <button @click="mostrar = !mostrar">Clique aqui</button>
@@ -112,7 +112,7 @@ export default {
 
 Utilizando o **Out-in**, podemos **esperar** a transição de um componente, assim evitando **mutações** inesperadas(na verdade, esperadas) no template:
 
-```js
+```ts
 <transition name="cor" mode="out-in">
   ...
 </transition>
@@ -120,7 +120,7 @@ Utilizando o **Out-in**, podemos **esperar** a transição de um componente, ass
 
 ## Transições entre componentes
 
-```js
+```ts
 <transition name="troca" mode="out-in">
   <component v-bind:is="componente"></component>
 </transition>
@@ -132,7 +132,7 @@ Utilizando o **Out-in**, podemos **esperar** a transição de um componente, ass
 
 Quando temos mais de um elemento dentro de um **transition**(no caso mais que 1 elemento filho na transição), temos que usar o **transition-group**:
 
-```js
+```ts
 <transition-group name="list" tag="p">
   <article v-for="(item, index) in lista" :key="index">
     {{ item }}
@@ -155,7 +155,7 @@ Usando o **move** é aplicado diretamente um evento de transição a uma lista q
 
 Podemos anexar transições em nosso template:
 
-```js
+```ts
 @before-enter="beforeEnter"
 // ou
 v-on:before-enter="beforeEnter"

@@ -12,7 +12,7 @@ Agora utilizando o `Vue.use()` iremos registrar nossa **biblioteca**:
 
 `./src/main.js`
 
-```js
+```ts
 import Vue from 'vue';
 import Vuelidate from 'vuelidate';
 import App from './App.vue';
@@ -38,7 +38,7 @@ Antes de aplicar as validações no formulário de login, vamos fazer o formulá
 
 ``./src/routes.js`
 
-```js
+```ts
 import Register from './pages/Register.vue';
 // ...
 {
@@ -51,7 +51,7 @@ import Register from './pages/Register.vue';
 
 `./src/pages/Register.vue`
 
-```js
+```ts
 <template>
   <v-app>
     <v-content>
@@ -151,7 +151,7 @@ O **Vuelidate** trabalha com **validators**, ele irá **escutar** toda alteraç�
 
 Vamos fazer o nosso **validator** do **Register.vue**:
 
-```js
+```ts
 <script>
 import {
   required,

@@ -21,7 +21,7 @@ Criamos um arquivo `vuerouter.js` em `./src/plugins/vuerouter.js'` e adicionamos
 
 `./src/plugins/vuerouter.js`
 
-```js
+```ts
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from '@/routes.js';
@@ -38,7 +38,7 @@ export default new VueRouter({
 
 Agora vamos importar em nosso `main.js`.
 
-```js
+```ts
 // ...
 import router from '@/plugins/vuerouter.js';
 // ...
@@ -51,7 +51,7 @@ Não acabamos ainda, vamos criar o arquivo `routes.js` na raiz do `src` que é a
 
 `./src/routes.js`
 
-```js
+```ts
 import Home from './pages/Home.vue';
 
 export default [
@@ -78,13 +78,13 @@ Vamos transferir o nosso conteúdo de `App.vue` para `./src/pages/Home.vue`.
 
 `./src/pages/Home.vue`
 
-```js
+```ts
 import Header from '../components/header/Header.vue';
 ```
 
 E o novo conteúdo de `./src/App.vue` será:
 
-```js
+```ts
 <template>
   <router-view />
 </template>

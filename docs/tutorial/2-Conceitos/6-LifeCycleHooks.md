@@ -30,7 +30,7 @@ export default {
 
 No hook criado, agora temos acesso aos dados reativos e os eventos. Os modelos e o DOM virtual **ainda** não foram montados ou renderizados.
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -56,7 +56,7 @@ POR FAVOR(Sério mesmo): Se você precisa buscar alguns dados para o seu compone
 
 A diferença do **beforeMount** e **mounted** é que temos acesso total ao elemento nativo(new Vue()), sendo **mounted** o hook mais utilizado, geralmente usado para motificar o **DOM**.
 
-```js
+```ts
 <script>
 export default {
   beforeMount() {
@@ -73,7 +73,7 @@ export default {
 
 Os ganchos de atualização são chamados sempre que uma propriedade **reativa** usada por seu componente é **alterada**, ou qualquer outra coisa faz com que seja renderizada novamente. Dessa forma conseguimos trabalhar ao ciclo de **computer-render** do seu componente.
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -99,7 +99,7 @@ export default {
 
 Quando você alcança o gancho destruído, vai restar pouca coisa em seu componente. Tudo o que foi anexado a ela já foi destruído, mas você pode usar o gancho destruído para fazer alguma limpeza necessária.
 
-```js
+```ts
 <script>
 export default {
   destroyed() {

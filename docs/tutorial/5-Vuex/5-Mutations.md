@@ -6,7 +6,7 @@ Vamos no nosso store:
 
 `./src/store/index.js`
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -48,7 +48,7 @@ Exemplo:
 
 `./src/App.vue`
 
-```js
+```ts
 <template>
   <transition name="router" mode="out-in">
     <router-view />

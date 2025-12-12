@@ -2,7 +2,7 @@
 
 Iremos melhor o nosso **store**, para a seguinte estrutura:
 
-```js
+```ts
 index.js
 state.js
 actions.js
@@ -13,7 +13,7 @@ getters.js
 
 `./src/store/index.js`
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -36,7 +36,7 @@ Agora iremos passar o conteudo de nosso **store** para cada arquivo:
 
 `./src/store/state.js`
 
-```js
+```ts
 export default {
   state: {
     usuario: {
@@ -49,7 +49,7 @@ export default {
 
 `./src/store/actions.js`
 
-```js
+```ts
 import types from './mutations_types';
 
 export default {
@@ -64,7 +64,7 @@ export default {
 
 `./src/store/getters.js`
 
-```js
+```ts
 export default {
   getters: {
     usuarioBemVindo(state) {
@@ -76,7 +76,7 @@ export default {
 
 `./src/store/mutations.js`
 
-```js
+```ts
 import types from './mutations_types';
 
 export default {
@@ -90,7 +90,7 @@ export default {
 
 `./src/store/mutations_types.js`
 
-```js
+```ts
 export default {
   USUARIO_LOGADO: 'USUARIO_LOGADO',
 };

@@ -21,7 +21,7 @@ pages/
 
 Será convertido para:
 
-```js
+```ts
 router: {
   routes: [
     {
@@ -47,14 +47,14 @@ router: {
 
 Para adicionar **bibliotecas externas** no **Nuxt**, podemos usar a pasta **plugins** e configurar o **nuxt.config.js**
 
-```js
+```ts
 import Vue from 'vue'
 import VueLib from 'vue-lib'
 
 Vue.use(VueLib)
 ```
 
-```js
+```ts
 export default {
   plugins: ['~/plugins/vue-lib']
 }
@@ -66,7 +66,7 @@ O Nuxt muda a forma de como utilizar o **Vuex**, mapeando os arquivos dentro da 
 
 `store/index.js`
 
-```js
+```ts
 export const state = () => ({
   grupo: "He4rt";
 })
@@ -82,7 +82,7 @@ Para criar módulos, utilizamos `store/<nome-do-modulo>.js`:
 
 `store/game.js`
 
-```js
+```ts
 export const state = () => ({
   players: []
 })
@@ -90,7 +90,7 @@ export const state = () => ({
 
 É a mesma coisa que:
 
-```js
+```ts
 new Vuex.Store({
   modules: {
     game: {

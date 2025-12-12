@@ -16,7 +16,7 @@ Apenas instalar a dependência:
 
 O Ant exige que se instale os componentes, vamos usar o exemplo utilizando o [Botão](https://www.antdv.com/components/button/):
 
-```js
+```ts
 import { Button } from 'ant-design-vue';
 Vue.use(Button);
 ```

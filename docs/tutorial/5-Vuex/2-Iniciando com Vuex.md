@@ -8,7 +8,7 @@ Primeiramente, vamos adicionar o **Vuex** em nossa aplicação:
 
 Na pasta gerada `./src/store.js`, podemos ver como ficou nossa **loja**:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 

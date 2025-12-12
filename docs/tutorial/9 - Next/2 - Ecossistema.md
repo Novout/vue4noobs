@@ -6,7 +6,7 @@ Vamos demonstrar as mudanças que ocorreram nas novas versões do Vue-Router e V
 
 Tivemos uma mudança na estrutura de base no novo [VueRouter](https://github.com/vuejs/vue-router-next) para utilizar a base:
 
-```js
+```ts
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -31,74 +31,59 @@ export default router;
 
 Temos o `useRouter` para conseguirmos utilizar as coisas do router no setup:
 
-```js
-import { useRouter } from 'vue-next-router';
+```ts
+import { useRouter } from 'vue-router';
 
-setup() {
-  const router = useRouter();
-
-  router.push({ name: 'he4rt' }));
-}
+const router = useRouter();
+router.push({ name: 'he4rt' }));
 ```
 
 Podemos agora criar rotas nos próprios componentes, por mais que seja um uso bem específico é uma adição muito válida:
 
-```js
+```ts
 import { defineComponent } from 'vue';
-import { useRouter } from 'vue-next-router';
+import { useRouter } from 'vue-router';
 
-export default defineComponent({
-  setup() {
-    const router = useRouter();
+const router = useRouter();
 
-    const createRoute = id => {
-      router.addRoute({
-        path: `/he4rt/${id}`,
-        name: `he4rt-${id}`,
-        component: () => import('@/views/He4rt.vue');
-      });
-    }
-  
-    return { createRoute }
-  }
-});
+const createRoute = id => {
+  router.addRoute({
+    path: `/he4rt/${id}`,
+    name: `he4rt-${id}`,
+    component: () => import('@/views/He4rt.vue');
+  });
+}
 ```
 
 As guardas de rota tiveram uma mudança em seu retorno, agora retornam o valor primeiramente do que o `next()`. No exemplo abaixo, podemos determinar se a rota será renderizada ou não apenas pelo retorno do booleano:
 
-```js
+```ts
 router.beforeEach(() => booleanAuthenticated);
 ```
 
-### Vuex
+### Pinia
 
-O [Vuex 4](https://github.com/vuejs/vuex) trouxe algumas novas adições:
+O [Pinia](https://pinia.vuejs.org/) é sucessor do [Vuex 4](https://github.com/vuejs/vuex) e trouxe uma nova perspectiva:
 
-Agora podemos utilizar o `createStore` para a loja:
+```ts
+// stores/counter.ts
+import { defineStore } from 'pinia'
 
-```js
-import { createStore } from "vuex";
+export const useCounterStore = defineStore('counter', {
+  state: () => {
+    return { count: 0 }
+  },
+  actions: {
+    increment() {
+      this.count++
+    },
+  },
+})
 
-export const store = createStore({
-  state: {},
-  mutations: {},
-  actions: {}
-});
-```
+//...
 
-Com o logger podemos com facilidade encontrar problemas no fluxo:
-
-```js
-import { createLogger } from 'vuex';
-
-export const store = createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  plugins: [
-    createLogger()
-  ]
-});
+const COUNTER = useCounterStore()
+console.log(COUNTER.count)
 ```
 
 [Próxima Seção](./3%20-%20Hooks.md)

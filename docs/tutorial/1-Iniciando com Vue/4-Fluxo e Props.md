@@ -95,7 +95,7 @@ export default {
 
 O **name** significa o nome do componente que está sendo exportado, por padrão o **Vue** exporta o nome que está descrito na extensão do arquivo, neste caso, **App** seria exportado da mesma forma.
 
-```js
+```ts
 <script>
 export default {
   name: 'App'
@@ -107,7 +107,7 @@ export default {
 
 Agora vamos diretamente para o componente **HelloWorld.vue**:
 
-```js
+```ts
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -152,7 +152,7 @@ export default {
 
 Vamos desconsiderar as listas, pois possuem apenas a lógica padrão do **HTML**, vamos focar no que o **Vue** disponibiliza:
 
-```js
+```ts
 <template>
   <div>
     <h1>{{ msg }}</h1>
@@ -196,7 +196,7 @@ Neste caso, estariamos passando um **Object**. Iremos futuramente no curso expli
 
 * Podemos também passar para as **props** outras restrições, como **required**(boolean, se a prop será obrigatória ou não), **default**(podemos definir um valor setado em caso o componente pai não mande nenhum conteúdo da prop setada).
 
-```js
+```ts
 <script>
 export default {
   props: {
@@ -211,7 +211,7 @@ export default {
 
 Agora vamos falar sobre a **msg** sendo exibida no template
 
-```js
+```ts
 <template>
   <div>
     <h1>{{ msg }}</h1>
@@ -233,7 +233,7 @@ No **Vue**, conteúdos passados por **interpolação** já são reativos, ou sej
 
 Podemos também intercalar conteúdos **estáticos** sem nenhum problema
 
-```js
+```ts
 <template>
   <div>
     <h1>Hello {{ world }}</h1>

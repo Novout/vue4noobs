@@ -6,7 +6,7 @@ Os módulos do **Vuex** são basicamente "namespaces" em uma camada mais no obje
 
 Uma estrutura básica usando módulos:
 
-```js
+```ts
 const moduloA = {
   state: () => ({ ... }),
   mutations: { ... },
@@ -33,7 +33,7 @@ store.state.b // -> Conseguimos acesso ao state do módulo 'b'
 
 * O primeiro argumento recebido é o estado local do módulo, **não o do root**. Para acessarmos o root, podemos facilmente desconstruir o objeto:
 
-```js
+```ts
 const modulo = {
   // ...
   actions: {
@@ -49,7 +49,7 @@ const modulo = {
 
 * Utilizando `namespaced: true`, nossos módulos  não serão mais registrados em um namespace global, dessa forma conseguimos componentes mais independentes um do outro.
 
-```js
+```ts
 const store = new Vuex.Store({
   modules: {
     grupo: {

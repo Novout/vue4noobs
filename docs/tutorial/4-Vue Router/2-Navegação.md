@@ -4,7 +4,7 @@ Agora, vamos criar uma rota para `'/login`, assim criando nosso formuário:
 
 `./src/routes.js`
 
-```js
+```ts
 import Home from './pages/Home.vue';
 import Login from './pages/Login.vue';
 

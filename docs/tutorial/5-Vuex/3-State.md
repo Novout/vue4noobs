@@ -4,7 +4,7 @@ Agora, vamos implementar o objeto **usuario**, para conseguirmos ter todos os da
 
 Primeiramente, vamos criar em nosso estado:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -28,7 +28,7 @@ export default new Vuex.Store({
 
 * O estado do **Vuex** é criado **junto** com o que será montado na instância, no nosso caso **App.js**, então é possivel requisitar o localStorage diretamente, por exemplo:
 
-```js
+```ts
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -45,7 +45,7 @@ export default new Vuex.Store({
 
 Para conseguirmos acessar no template, iremos utilizar o **mapState**:
 
-```js
+```ts
 import { mapState } from 'vuex';
 
 export default {
@@ -66,7 +66,7 @@ Em nossa aplicação, iremos retirar o nosso localStorage com os dados do usuár
 
 `./src/pages/Login.vue`
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -89,7 +89,7 @@ export default {
 
 `./src/pages/Dashboard.vue`
 
-```js
+```ts
 <v-list-item>
   <v-list-item-content>
     <v-list-item-title>Olá {{ usuario.conta }}!</v-list-item-title>
@@ -153,7 +153,7 @@ export default {
 
 Podemos buscar outros conteúdos que estão no estado, por exemplo:
 
-```js
+```ts
 computed: {
   ...mapState([
     'a'

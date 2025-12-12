@@ -8,7 +8,7 @@ Primeiramente, vamos setar uma nova chave no localStorage:
 
 `./src/pages/Login.vue`
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -41,7 +41,7 @@ O **beforeRouter** e **afterRouter** possuem três parâmetros por padrão: to, 
 
 `./src/routes.js`
 
-```js
+```ts
 import Home from './pages/Home.vue';
 import Login from './pages/Login.vue';
 import Dashboard from './pages/Dashboard.vue';
@@ -80,7 +80,7 @@ Adicionamos um novo package: `yarn add vue-router-multiguard`
 
 E aplicamos no router:
 
-```js
+```ts
 import multiguard from 'vue-router-multiguard';
 
 import Home from './pages/Home.vue';

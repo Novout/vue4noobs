@@ -10,7 +10,7 @@ Execute o comando:
 
 e no seu .babelrc na raíz do projeto:
 
-```jsx
+```tsx
 {
   "plugins": ["@vue/babel-plugin-jsx"]
 }
@@ -20,7 +20,7 @@ e no seu .babelrc na raíz do projeto:
 
 Exemplo básico:
 
-```jsx
+```tsx
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -37,7 +37,7 @@ export default defineComponent({
 
 Podemos utilizar diretamente pelo retorno do setup():
 
-```jsx
+```tsx
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -56,7 +56,7 @@ export default defineComponent({
 
 Podemos utilizar diretamente pelo retorno do setup():
 
-```jsx
+```tsx
 import { ref, defineComponent } from "vue";
 
 export default defineComponent({
@@ -78,7 +78,7 @@ export default defineComponent({
 
 * Utilizando o V-Model:
 
-```jsx
+```tsx
 import { ref, defineComponent } from "vue";
 
 export default defineComponent({
@@ -100,7 +100,7 @@ export default defineComponent({
 
 Não precisamos importar os componentes com `components: {...}`, podendo utilizar diretamente:
 
-```jsx
+```tsx
 import { ref, defineComponent } from "vue";
 //...
 const Header = defineComponent({...});

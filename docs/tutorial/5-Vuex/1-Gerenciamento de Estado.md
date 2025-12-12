@@ -46,7 +46,7 @@ Na **mutation**, teremos acesso ao **estado** do **Vuex**, assim conseguindo **m
 
 Aqui é a onde estará os nossos estados, por exemplo:
 
-```js
+```ts
 state: {
   contador: 0
 }
@@ -64,7 +64,7 @@ A estrutura de nossa loja é bem simples, nada distante do que já vimos no **Vu
 
 **Vue**
 
-```js
+```ts
 new Vue({
   data: {
 
@@ -80,7 +80,7 @@ new Vue({
 
 **Vuex**
 
-```js
+```ts
 new Vuex.Store({
   state: {
 

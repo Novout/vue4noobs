@@ -4,7 +4,7 @@ Primeiramente, vamos criar a nossa rota `/dashboard` e sua rota **filha**:
 
 `./src/routes.js`
 
-```js
+```ts
 import Home from './pages/Home.vue';
 import Login from './pages/Login.vue';
 import Dashboard from './pages/Dashboard.vue';
@@ -40,7 +40,7 @@ export default [
 
 Agora em `./pages/Dashboard.vue`
 
-```js
+```ts
 <template>
   <v-app>
     <section>
@@ -155,7 +155,7 @@ No caso, a rota filha terá o seguinte conteúdo:
 
 `./src/components/dashboard/DashboardHome.vue`
 
-```js
+```ts
 <template>
   <v-card
     class="mx-auto"

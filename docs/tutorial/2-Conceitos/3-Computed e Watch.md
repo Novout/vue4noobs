@@ -12,7 +12,7 @@ Neste ponto, o modelo **não** é mais simples e declarativo. Você precisa exam
 
 É por isso que, para qualquer lógica complexa, você deve usar uma **propriedade computada**(computed properties):
 
-```js
+```ts
 <template>
   <div id="example">
     <p>Mensagem inicial: "{{ hello }}"</p>

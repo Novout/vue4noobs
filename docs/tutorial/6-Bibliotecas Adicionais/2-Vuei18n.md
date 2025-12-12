@@ -6,7 +6,7 @@ O [Vuei18n](https://kazupon.github.io/vue-i18n/) é um plugin para internacional
 
 Todas as mensagens irão ficar em arquivos como **objetos literais**
 
-```js
+```ts
 const messages = {
   en: {
     message: {
@@ -23,7 +23,7 @@ const messages = {
 
 E exibir no template como:
 
-```js
+```ts
 <p>{{ $t('message.hello') }}</p>
 ```
 

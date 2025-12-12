@@ -6,7 +6,7 @@ Incrivelmente existe muitos códigos que ainda são feito com o famoso ctrc + ct
 
 Felizmente, os **Mixins** do **Vue** são bem simples de se usar (assim como a maioria das coisas no **Vue** comparando com outras frameworks).O componente terá acesso a todas as opções no mixin como se fosse declarado no próprio componente.
 
-```js
+```ts
 // arquivo mixin.js
 export default {
   data () {
@@ -39,7 +39,7 @@ new Vue({
 
 Dessa forma, temos acesso ao mixin apenas pelo **$data**, evitando problemas com declarações no próprio componente que está utilizando o **mixin**.
 
-```js
+```ts
 // mixin.js file
 export default {
   data () {
@@ -70,7 +70,7 @@ export default {
 
 Podemos criar mixins globais utilizando o **Vue.mixin**:
 
-```js
+```ts
 // irá jogar o 'importante' para as opções
 Vue.mixin({
   created() {

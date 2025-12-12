@@ -8,7 +8,7 @@ Comando: `yarn add vue-awesome-notifications`
 
 `./src/main.js`
 
-```js
+```ts
 import Vue from 'vue';
 import VueAWN from 'vue-awesome-notifications';
 
@@ -20,7 +20,7 @@ Vamos adicionar o css global:
 
 `./src/App.vue`
 
-```js
+```ts
 <style>
 @import '~vue-awesome-notifications/dist/styles/style.css';
 
@@ -37,7 +37,7 @@ Vamos utilizar o AWS para mostrar a verificação de nosso formulário:
 
 `./src/pages/Register.vue`
 
-```js
+```ts
 // ...
 methods: {
   enviarFormulario() {

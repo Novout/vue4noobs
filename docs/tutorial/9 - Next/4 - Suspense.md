@@ -2,8 +2,6 @@
 
 Suspense é um recurso utilizado no React.js, sendo um recurso especial assim como o `transition` e `transition-group`, seu objetivo é ser um watcher do componente e ter as informações de carregamento. Por mais que podemos monitorar a criação de um componente pelo retorno do setup() sem a necessidade de recursos adicionais, o Suspense vem para utilizar isso de uma forma elegante e que facilite para os desenvolvedores.
 
-Até o momento(17/12/2020), o recurso está em fase beta e não é recomendável para projetos finais.
-
 ## Utilização
 
 ```html
@@ -24,17 +22,14 @@ Até o momento(17/12/2020), o recurso está em fase beta e não é recomendável
 * Se o componente esperado executar um erro, podemos capturar e tratar este erro:
 
 ```html
-<script>
+<script setup lang="ts">
 import { ref, onErrorCaptured } from 'vue';
 
-setup () {
-  const error = ref(null);
-  onErrorCaptured(e => {
-    error.value = e
-    return true
-  })};
-  return { error }
-</script>
+const error = ref(null);
+onErrorCaptured(e => {
+  error.value = e
+  return true
+})}
 ```
 
 * Lembrando que este erro retornado é genérico, tendo a necessidade de tratar o erro de alguma forma. Como a promise irá ficar infinitamente carregando, recomendamos utilizar o v-if/v-else com um erroHandler para conseguir exibir o erro sem que a promise continue a ser carregada.

@@ -31,7 +31,7 @@ Dessa forma, já ira ser criado o `background.js` que é o ponto de criação da
 
 O electron-builder já vem com algumas definições de reconhecimento de sistemas e de privilégios, mas o que recomendamos dar uma olhada a fundo é nisso daqui:
 
-```js
+```ts
 function createWindow() {
   win = new BrowserWindow({
     width: 800,
@@ -65,7 +65,7 @@ A condição seguinte é relacionada ao modo desenvolvedor(ou não), carregando 
 
 * Podemos chamar o electron normalmente dentro do `<script></script>` dos componentes do Vue e utilizar com os métodos, computed's normalmente, exemplo:
 
-```js
+```ts
 ...
 <script>
 const { BrowserWindow } = require('electron').remote;
@@ -82,7 +82,7 @@ Diferente do Electron normal onde definimos o **build** do electron no **package
 
 No arquivo `vue.config.js` na raiz de nosso projeto(ou criá-lo na raiz), podemos inserir o seguinte:
 
-```js
+```ts
 module.exports = {
   // ...
   pluginOptions: {

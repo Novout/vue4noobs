@@ -10,20 +10,14 @@ Já mostramos os hooks padrões, como a nova forma de utilizar os `LifeCycleHook
 
 Diferente do Vue 2.x em que utilizamos o `this.*` para acessar os plugins internos, agora nos importamos separadamente e instânciamos o que queremos:
 
-```js
-import { defineComponent, onBeforeDestroy } from 'vue';
-import { useRouter } from 'vue-router-next';
+```ts
+import { onBeforeDestroy } from 'vue';
+import { useRouter } from 'vue-router';
 
-export default defineComponent({
-  setup() {
-    const router = useRouter(); // instanciação do router
+const router = useRouter(); // instanciação do router
 
-    onBeforeDestroy(() => { // life cycle hook
-      router.push('/');
-    })
-
-    return { router } // acessível ao template
-  }
+onBeforeDestroy(() => { // life cycle hook
+  router.push('/');
 })
 ```
 
@@ -33,7 +27,7 @@ export default defineComponent({
 
 Podemos separar por arquivos a nossa lógica, assim conseguindo criar uma estrutura interessante nos nossos projetos:
 
-```js
+```ts
 // './src/use/state.js'
 import { reactive } from 'vue';
 
@@ -42,20 +36,12 @@ export const useState = () => {
     value: 0
   });
 
-  // convertendo para uma referência
-  return toRefs(state)
+  return state
 }
 // ./src/pages/home.vue
 import { useState } from '@/use/state';
 
-export default {
-  setup() {
-    // Diferente de desconstruir uma prop, aqui não perdemos a referência, já que estamos retornando com toRefs(...)
-    const { value } = useState();
-
-    return { value }
-  }
-}
+const state = useState()
 ```
 
 * Uma grande vantagem dos hook's é que o nosso código fica menos poluido do que utilizar `this.*` sempre que queremos acessar um prototype.
@@ -103,14 +89,7 @@ export const useState = <T>(entryValue: T) => {
 import { defineComponent } from 'vue';
 import { useState } from '@/use/react.ts';
 
-export default defineComponent({
-  name: 'Hook',
-  setup() {
-    const [count, setCount] = useState(0);
-
-    return { count, setCount };
-  }
-})
+const [count, setCount] = useState(0);
 </script>
 ```
 
@@ -120,14 +99,10 @@ export default defineComponent({
 
 Recentemente atuailizado para uma versão compatível com o Vue 3.x, temos uma gama de hook's já prontos para utilizar em nosso projeto com o [VueUse](https://github.com/antfu/vueuse)
 
-```js
+```ts
 import { useMouse } from '@vueuse/core';
 
-setup() {
-  const { x, y } = useMouse(); // posição do cursor
-
-  return { x, y }
-}
+const { x, y } = useMouse(); // posição do cursor
 ```
 
 * Recomendamos fortemente que dê uma olhada nesta lib, pois possui muitos recursos comuns e que podem te "salvar" em um futuro projeto.

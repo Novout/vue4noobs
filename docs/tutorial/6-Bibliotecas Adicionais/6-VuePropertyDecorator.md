@@ -4,7 +4,7 @@ No **Vue-CLI** é posível escolher a opção de usar o **Vue** com **Typescript
 
 Exemplo:
 
-```js
+```ts
 import { Vue, Component, Emit } from 'vue-property-decorator';
 
 @Component

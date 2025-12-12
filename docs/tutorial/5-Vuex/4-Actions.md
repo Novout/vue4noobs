@@ -6,7 +6,7 @@ Primeiramente, vamos criar o **dispatch**:
 
 `./src/pages/Login.vue`
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -35,7 +35,7 @@ Agora precisamos criar a action **USUARIO_LOGADO** em nossa **loja**:
 
 `./src/store/index.js`
 
-```js
+```ts
 export default new Vuex.Store({
   // ...
   actions: {
@@ -53,7 +53,7 @@ export default new Vuex.Store({
 
 Podemos simplificar o uso também:
 
-```js
+```ts
 export default new Vuex.Store({
   // ...
   actions: {

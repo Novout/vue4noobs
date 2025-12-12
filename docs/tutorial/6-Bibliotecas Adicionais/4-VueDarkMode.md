@@ -8,7 +8,7 @@ O VueDarkMode é um conjunto de componentes projetados para facilitar a projeç�
 
 `./src/main.js`
 
-```js
+```ts
 import Vue from "vue";
 import VueDarkMode from "@growthbunker/vuedarkmode";
 

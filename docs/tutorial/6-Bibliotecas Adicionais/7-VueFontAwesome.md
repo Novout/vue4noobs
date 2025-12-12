@@ -2,7 +2,7 @@
 
 O [Vue FontAwesome](https://github.com/FortAwesome/vue-fontawesome) é o port do conhecido [FontAwesome](https://fontawesome.com/icons?d=gallery), assim conseguimos utilizar as fontes no **Vue**:
 
-```js
+```ts
 yarn add @fortawesome/fontawesome-svg-core
 yarn add @fortawesome/free-solid-svg-icons
 yarn add @fortawesome/vue-fontawesome
@@ -10,7 +10,7 @@ yarn add @fortawesome/vue-fontawesome
 
 O exemplo recomendado:
 
-```js
+```ts
 import Vue from 'vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons';

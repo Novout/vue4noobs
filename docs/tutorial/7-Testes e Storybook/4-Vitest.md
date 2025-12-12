@@ -26,7 +26,7 @@ O Vitest é uma ferramenta de testes que utiliza o Vite como base, e por isso é
 
 Para rodar os testes é necessário adicionar o seguinte script no package.json:
 
-```json
+```tson
 {
   "scripts": {
     "test": "vitest",

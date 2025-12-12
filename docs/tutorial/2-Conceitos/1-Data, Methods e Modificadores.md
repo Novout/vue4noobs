@@ -4,7 +4,7 @@
 
 Agora vamos declarar o **data**
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -22,7 +22,7 @@ Precisamos retornar um objeto para o **data** para que cada instância possa man
 
 No **data** podemos declarar qualquer tipo de dado(objetos, arrays, etc...)
 
-```js
+```ts
 <script>
 export default {
   data() {
@@ -81,7 +81,7 @@ Métodos que vão juntar na instância do Vue. Você pode acessar esses métodos
 
 Agora, vamos fazer um **contador** mutando a nossa variavel declarada na instância, usando **methods**:
 
-```js
+```ts
 <template>
   <section>
     <button v-on:click="acrescentar()">Clique aqui</button>
@@ -107,7 +107,7 @@ export default {
 
 Podemos escrever **methods** de outras formas, como:
 
-```js
+```ts
 <template>
   <section>
     <button v-on:click="acrescentar()">Clique aqui para acrescentar</button>
@@ -136,7 +136,7 @@ export default {
 ```
 Podemos também capturar o **event**, contendo todos os dados do emissor, ou seja, o evento do DOM nativo:
 
-```js
+```ts
 <script>
 export default {
   methods: {
@@ -152,7 +152,7 @@ export default {
 
 Como dito na seção de fluxo e props, podemos exibir algo da instância diretamente no template.No methods podemos retornar valores para o template usando o **v-bind**.
 
-```js
+```ts
 <template>
   <img v-bind:src="importLogo()">
 </template>

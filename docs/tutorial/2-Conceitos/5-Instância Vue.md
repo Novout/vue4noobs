@@ -6,7 +6,7 @@ Já vimos um pouco sobre a instância **new Vue**, agora vamos aprofundar mostra
 
 Podemos definir componentes diretamente na instância utilizando o **.component**:
 
-```js
+```ts
 Vue.component('card', {
   props: ['titulo'],
   template: '<p>{{ titulo }}</p>',
@@ -21,7 +21,7 @@ Vue.component('card', {
 
 Para a utilização de plugins, utilizamos o **.use** antes ta **instanciação** do **Vue**. Vamos usar o exemplo de instalação do plugin [Vuelidate](https://vuelidate.js.org).
 
-```js
+```ts
 import Vue from 'vue';
 import Vuelidate from 'vuelidate';
 Vue.use(Vuelidate);
@@ -37,7 +37,7 @@ new Vue({
 
 Com o **Vue** podemos criar variaveis globais para a manipulação de forma facilitada, com a convensão **$**.
 
-```js
+```ts
 import Vue from 'vue';
 import axios from 'axios';
 
@@ -56,7 +56,7 @@ new Vue({
 
 Para conseguirmos alterar configurações padrões no **Vue**, utilizamos o **.config** para conseguir acessar estas configurações
 
-```js
+```ts
 Vue.config.productionTip = false;
 
 //...
